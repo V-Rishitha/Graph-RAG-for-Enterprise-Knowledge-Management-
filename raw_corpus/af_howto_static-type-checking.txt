@@ -1,0 +1,8 @@
+<string>
+Static Type Checking for Dags
+Airflow publishes optional
+mypy
+plugins as the independently versioned
+apache-airflow-mypy
+distribution.
+See the plugin documentation for installation, configuration, supported Airflow patterns, and release notes.

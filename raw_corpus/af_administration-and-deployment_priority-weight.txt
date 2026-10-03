@@ -1,0 +1,40 @@
+<string>
+Priority Weights
+priority_weight
+defines priorities in the executor queue. The default
+priority_weight
+is
+1
+, and can be
+bumped to any integer; larger numbers mean higher priority.
+Moreover, each task has a true
+priority_weight
+that is calculated based on its
+weight_rule
+which defines the weighting method used for the effective total priority weight of the task.
+Below are the weighting methods. By default, Airflow's weighting method is
+downstream
+.
+The
+priority_weight
+parameter can be used in conjunction with :ref:`concepts:pool`.
+Note
+As most database engines are using 32-bit for integers, the maximum value for any calculated or
+defined
+priority_weight
+is 2,147,483,647 and the minimum value is -2,147,483,648.
+Custom Weight Rule
+You can implement your own custom weighting method by extending the
+PriorityWeightStrategy
+class and
+registering it in a plugin.
+To check if the custom priority weight strategy is already available in Airflow, you can run the bash command
+airflow plugins
+. Then to use it, you can create an instance of the custom class and provide it in the
+weight_rule
+parameter of the task or provide the path of the custom class:
+After the Dag is running, you can check the
+priority_weight
+parameter on the task to verify that it is using
+the custom priority strategy rule.
+|experimental|

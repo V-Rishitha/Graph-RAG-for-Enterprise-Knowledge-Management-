@@ -1,0 +1,1927 @@
+[
+  {
+    "subject": "Dag",
+    "relation": "from",
+    "object": "DagBag",
+    "sentence": "Runs at load time of the Dag from DagBag :class:`~airflow.models.dagbag.",
+    "source_file": "af_administration-and-deployment_cluster-policies.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "expose through",
+    "object": "API",
+    "sentence": "Warning Reference credentials through a Connection \u2014 do not inline them Bundle kwargs are stored in the [dag_processor] dag_bundle_config_list configuration, which Airflow exposes through the Config API when :ref:`config:api__expose_config` is enabled.",
+    "source_file": "af_administration-and-deployment_dag-bundles.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "read from",
+    "object": "OTEL_SERVICE_NAME",
+    "sentence": "Airflow reads service.name from OTEL_SERVICE_NAME , and every other resource attribute from OTEL_RESOURCE_ATTRIBUTES : # on one of the schedulers export OTEL_SERVICE_NAME",
+    "source_file": "af_administration-and-deployment_logging-monitoring_metrics.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "add to",
+    "object": "PYTHONPATH",
+    "sentence": "You can do it in one of those ways: add your modules to one of the folders that Airflow automatically adds to PYTHONPATH add extra folders where you keep your code to PYTHONPATH package your code into a Python package and install it together with Airflow.",
+    "source_file": "af_administration-and-deployment_modules_management.txt"
+  },
+  {
+    "subject": "Iframe",
+    "relation": "in",
+    "object": "UI",
+    "sentence": "If provided # will be rendered inside an Iframe in the UI.",
+    "source_file": "af_administration-and-deployment_plugins.txt"
+  },
+  {
+    "subject": "BaseStoreBackend",
+    "relation": "for",
+    "object": "API",
+    "sentence": "BaseStoreBackend` for the full API.",
+    "source_file": "af_administration-and-deployment_task-and-asset-state-store.txt"
+  },
+  {
+    "subject": "Gunicorn",
+    "relation": "require",
+    "object": "extra",
+    "sentence": "airflow api-server Gunicorn Gunicorn provides additional features for production deployments: Memory sharing : Workers share memory via copy-on-write after fork, reducing total memory usage Rolling worker restarts : Zero-downtime worker recycling to prevent memory accumulation Proper signal handling : SIGTTOU kills the oldest worker (FIFO), enabling true rolling restarts Note Gunicorn requires the gunicorn extra",
+    "source_file": "af_administration-and-deployment_web-stack.txt"
+  },
+  {
+    "subject": "Gunicorn",
+    "relation": "be",
+    "object": "Unix",
+    "sentence": ": pip install 'apache-airflow-core[gunicorn]' Gunicorn is Unix-only and does not work on Windows.",
+    "source_file": "af_administration-and-deployment_web-stack.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "schedule",
+    "object": "Dag",
+    "sentence": "The following example shows how after the producer task in the producer Dag successfully completes, Airflow schedules the consumer Dag.",
+    "source_file": "af_authoring-and-scheduling_asset-scheduling.txt"
+  },
+  {
+    "subject": "SegmentWindow",
+    "relation": "raise for",
+    "object": "ValueError",
+    "sentence": "partition_key ) aggregate_all_regions () Construction validates both components: SegmentWindow raises ValueError for an empty list, non-string items, or empty-string keys; duplicate entries are silently deduplicated.",
+    "source_file": "af_authoring-and-scheduling_assets.txt"
+  },
+  {
+    "subject": "FixedKeyMapper",
+    "relation": "raise",
+    "object": "ValueError",
+    "sentence": "FixedKeyMapper raises ValueError if its argument is not a non-empty string.",
+    "source_file": "af_authoring-and-scheduling_assets.txt"
+  },
+  {
+    "subject": "WeekWindow",
+    "relation": "yield through",
+    "object": "Monday",
+    "sentence": "For a weekly upstream key \"2026-03-09\" (Monday), WeekWindow() yields the seven days 2026-03-09 through 2026-03-15 . Window.",
+    "source_file": "af_authoring-and-scheduling_assets.txt"
+  },
+  {
+    "subject": "deployment",
+    "relation": "need",
+    "object": "triggerer",
+    "sentence": "They wait in the scheduler-managed awaiting_input task state, so a deployment that waits only on human input rather than deferrable operators does not need a running triggerer.",
+    "source_file": "af_authoring-and-scheduling_deferring.txt"
+  },
+  {
+    "subject": "TriggerEvent",
+    "relation": "from",
+    "object": "AdvanceItem",
+    "sentence": "Example \u2014 SQS-like producer: from collections.abc import AsyncIterator , Sequence from typing import Any from airflow.triggers.base import BaseEventTrigger , TriggerEvent from airflow.triggers.shared_stream import AdvanceItem , SharedStreamProducer class SqsSharedStreamProducer ( SharedStreamProducer ): def __init__ ( self , queue_url : str ): self .",
+    "source_file": "af_authoring-and-scheduling_event-scheduling.txt"
+  },
+  {
+    "subject": "Dag",
+    "relation": "remain in",
+    "object": "Python",
+    "sentence": "The Dag and its scheduling remain in Python; individual tasks delegate to a compiled Go bundle that is launched by :class:`~airflow.sdk.coordinators.executable.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_go.txt"
+  },
+  {
+    "subject": "Quick start",
+    "relation": "start",
+    "object": "Dag",
+    "sentence": "Contents API reference Prerequisites Execution architecture Quick start Python Dag (the scheduling side)",
+    "source_file": "af_authoring-and-scheduling_language-sdks_go.txt"
+  },
+  {
+    "subject": "TaskInstance",
+    "relation": "return",
+    "object": "DagID",
+    "sentence": "TaskInstance() returns DagID , RunID , TaskID , MapIndex (nil for an unmapped task), and TryNumber ; ctx.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_go.txt"
+  },
+  {
+    "subject": "TaskInstance",
+    "relation": "return",
+    "object": "RunID",
+    "sentence": "TaskInstance() returns DagID , RunID , TaskID , MapIndex (nil for an unmapped task), and TryNumber ; ctx.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_go.txt"
+  },
+  {
+    "subject": "DagRun",
+    "relation": "return",
+    "object": "DagID",
+    "sentence": "DagRun() returns DagID , RunID , and the *time.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_go.txt"
+  },
+  {
+    "subject": "DagRun",
+    "relation": "return",
+    "object": "RunID",
+    "sentence": "DagRun() returns DagID , RunID , and the *time.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_go.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "parse",
+    "object": "Dag",
+    "sentence": "After Airflow has parsed the Dag, trigger it from the UI or command line: airflow dags trigger sales_pipeline The Java extract task returns 3 , transform returns 6 through XCom, and the Python load task logs Loaded: 6 .",
+    "source_file": "af_authoring-and-scheduling_language-sdks_java.txt"
+  },
+  {
+    "subject": "JVM",
+    "relation": "select via",
+    "object": "ServiceLoader",
+    "sentence": "The JVM selects one finder via ServiceLoader ; having multiple providers on the classpath leads to unpredictable behaviour.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_java.txt"
+  },
+  {
+    "subject": "SLF4J",
+    "relation": "discover via",
+    "object": "ServiceLoader",
+    "sentence": "SLF4J 2.x The SLF4J binding is discovered automatically via ServiceLoader ; no configuration file or startup call is required.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_java.txt"
+  },
+  {
+    "subject": "jcl",
+    "relation": "over",
+    "object": "slf4j",
+    "sentence": "jcl-over-slf4j or to Log4j 2 via org.apache.logging.log4j:log4j-jcl .",
+    "source_file": "af_authoring-and-scheduling_language-sdks_java.txt"
+  },
+  {
+    "subject": "SDK",
+    "relation": "distribute as",
+    "object": "JAR",
+    "sentence": "Building and packaging The Java SDK is distributed as a JAR.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_java.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "read on",
+    "object": "JAR",
+    "sentence": "Note that Airflow-Supervisor-Schema-Version does not need to be set here since Airflow reads it directly from the airflow-sdk JAR on the classpath.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_java.txt"
+  },
+  {
+    "subject": "Maven",
+    "relation": "have",
+    "object": "equivalent",
+    "sentence": "Note Unlike the Gradle plugin, Maven has no equivalent of the verifyBundleMainClass validation step.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_java.txt"
+  },
+  {
+    "subject": "JAR",
+    "relation": "pick without",
+    "object": "restart",
+    "sentence": "A rebuilt bundle JAR, by contrast, is picked up on the next task launch without a restart, because a fresh JVM is spawned per task instance.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_java.txt"
+  },
+  {
+    "subject": "Dag",
+    "relation": "declare in",
+    "object": "TypeScript",
+    "sentence": "Dag is another interface, for a Dag declared in TypeScript rather than in Python, and is still a work in progress.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_typescript.txt"
+  },
+  {
+    "subject": "SDK",
+    "relation": "expose",
+    "object": "API",
+    "sentence": "The SDK does not yet expose a dedicated structured-logging API.",
+    "source_file": "af_authoring-and-scheduling_language-sdks_typescript.txt"
+  },
+  {
+    "subject": "Dag",
+    "relation": "run during",
+    "object": "UTC",
+    "sentence": "For example, a Dag with a start date in the US/Eastern time zone with a schedule of 0 0 * * * will run daily at 04:00 UTC during daylight savings time and at 05:00 otherwise.",
+    "source_file": "af_authoring-and-scheduling_timezone.txt"
+  },
+  {
+    "subject": "Dag",
+    "relation": "in",
+    "object": "Airflow",
+    "sentence": "Writing a Dag Creating a new Dag in Airflow is quite simple.",
+    "source_file": "af_best-practices.txt"
+  },
+  {
+    "subject": "Dag",
+    "relation": "appear in",
+    "object": "UI",
+    "sentence": "You should wait for your Dag to appear in the UI to be able to trigger it.",
+    "source_file": "af_best-practices.txt"
+  },
+  {
+    "subject": "DagBag",
+    "relation": "on",
+    "object": "deployment",
+    "sentence": "DagBag` on the specific Airflow deployment only, if needed.",
+    "source_file": "af_best-practices.txt"
+  },
+  {
+    "subject": "UI",
+    "relation": "of",
+    "object": "Airflow",
+    "sentence": "If you have many Dags generated from one file, consider splitting them if you observe it takes a long time to reflect changes in your Dag files in the UI of Airflow.",
+    "source_file": "af_best-practices.txt"
+  },
+  {
+    "subject": "Dag",
+    "relation": "be by",
+    "object": "Airflow",
+    "sentence": "In Airflow 3, a Dag scheduled with a bare cron string such as @daily uses :ref:`CronTriggerTimetable` by default ( [scheduler] create_cron_data_intervals is False ).",
+    "source_file": "af_core-concepts_dag-run.txt"
+  },
+  {
+    "subject": "Dag",
+    "relation": "from",
+    "object": "UI",
+    "sentence": "For more information on logical date , see :ref:`concepts-dag-run` and :ref:`faq:what-does-execution-date-mean` Manual Triggering and Data Intervals When you manually trigger a Dag (for example from the UI, CLI, REST API, or TriggerDagRunOperator ), do not assume the run's data_interval is derived from, or equal to, the supplied logical_date .",
+    "source_file": "af_core-concepts_dag-run.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "backfill at",
+    "object": "Dag",
+    "sentence": "It's been rewritten, and you want to run it on the previous 3 months of data---no problem, since Airflow can backfill the Dag and run copies of it for every day in those previous 3 months, all at once.",
+    "source_file": "af_core-concepts_dags.txt"
+  },
+  {
+    "subject": "Dag",
+    "relation": "pause through",
+    "object": "UI",
+    "sentence": "A Dag can be paused through the UI or API after the scheduler has stored it in the database.",
+    "source_file": "af_core-concepts_dags.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "configure with",
+    "object": "LocalExecutor",
+    "sentence": "Airflow comes configured with the LocalExecutor by default, which is a local executor, and the simplest option for execution.",
+    "source_file": "af_core-concepts_executor_index.txt"
+  },
+  {
+    "subject": "deployment",
+    "relation": "of",
+    "object": "Airflow",
+    "sentence": "This is the simplest deployment of Airflow, usually operated and managed on a single machine.",
+    "source_file": "af_core-concepts_overview.txt"
+  },
+  {
+    "subject": "deployment",
+    "relation": "use",
+    "object": "LocalExecutor",
+    "sentence": "Such a deployment usually uses the LocalExecutor, where the scheduler and the workers are in the same Python process.",
+    "source_file": "af_core-concepts_overview.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "in",
+    "object": "core Airflow",
+    "sentence": "Much like Operators, Airflow has a large set of pre-built Sensors you can use, both in core Airflow as well as via our providers system.",
+    "source_file": "af_core-concepts_sensors.txt"
+  },
+  {
+    "subject": "BaseSensorOperator",
+    "relation": "implement in",
+    "object": "SDK",
+    "sentence": "As of the Task SDK refactor, BaseSensorOperator is implemented in the Task SDK.",
+    "source_file": "af_core-concepts_sensors.txt"
+  },
+  {
+    "subject": "TaskFlow",
+    "relation": "use",
+    "object": "XCom",
+    "sentence": "Passing Arbitrary Objects As Arguments As mentioned TaskFlow uses XCom to pass variables to each task.",
+    "source_file": "af_core-concepts_taskflow.txt"
+  },
+  {
+    "subject": "service",
+    "relation": "for",
+    "object": "logging",
+    "sentence": "Kerberos integration for Kerberized services (Hadoop, Presto, Trino) memray pip install 'apache-airflow[memray]' Required for memory profiling with memray otel pip install 'apache-airflow[otel]' Required for OpenTelemetry metrics sentry pip install 'apache-airflow[sentry]' Sentry service for application logging and monitoring standard pip install apache-airflow[standard]' Standard hooks and operators statsd pip install 'apache-airflow[statsd]' Needed by StatsD metrics Meta-airflow package extras",
+    "source_file": "af_extra-packages-ref.txt"
+  },
+  {
+    "subject": "Fill",
+    "relation": "with",
+    "object": "ID",
+    "sentence": "Fill in the Connection Id field with the desired connection ID.",
+    "source_file": "af_howto_connection.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "use",
+    "object": "Fernet",
+    "sentence": "Security of connections in the database For connections stored in the Airflow metadata database, Airflow uses Fernet to encrypt password and other potentially sensitive data.",
+    "source_file": "af_howto_connection.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "add",
+    "object": "AIRFLOW_HOME",
+    "sentence": "(Airflow adds $AIRFLOW_HOME/config to PYTHONPATH when Airflow is initialized)",
+    "source_file": "af_howto_customize-ui.txt"
+  },
+  {
+    "subject": "AsyncCallback",
+    "relation": "change from",
+    "object": "Airflow",
+    "sentence": "AsyncCallback` was changed in Airflow 3.2 from airflow.sdk.definitions.deadline to airflow.sdk Using Built-in References Airflow provides several built-in reference points that you can use with DeadlineAlert: DeadlineReference.",
+    "source_file": "af_howto_deadline-alerts.txt"
+  },
+  {
+    "subject": "familiarity",
+    "relation": "with",
+    "object": "Docker",
+    "sentence": "Before you begin This procedure assumes familiarity with Docker and Docker Compose.",
+    "source_file": "af_howto_docker-compose_index.txt"
+  },
+  {
+    "subject": "Docker",
+    "relation": "for",
+    "object": "Mac",
+    "sentence": "Please refer to the Resources section in the Docker for Windows or Docker for Mac documentation for more information.",
+    "source_file": "af_howto_docker-compose_index.txt"
+  },
+  {
+    "subject": "DB",
+    "relation": "of",
+    "object": "Airflow",
+    "sentence": "Using Airflow Variables in top-level code creates a connection to the metadata DB of Airflow to fetch the value, which can slow down parsing and place extra load on the DB.",
+    "source_file": "af_howto_dynamic-dag-generation.txt"
+  },
+  {
+    "subject": "Memray",
+    "relation": "generate in",
+    "object": "AIRFLOW_HOME",
+    "sentence": "Step 4: Retrieve the Profile File Memray will automatically generate a binary profile file in your $AIRFLOW_HOME directory.",
+    "source_file": "af_howto_memory-profiling.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "Since",
+    "object": "Apache Airflow",
+    "sentence": "New Airflow 3.0 Services Since Apache",
+    "source_file": "af_howto_run-with-systemd.txt"
+  },
+  {
+    "subject": "deployment",
+    "relation": "use",
+    "object": "triggerer",
+    "sentence": "You can ignore the triggerer health status only when your deployment intentionally does not use a triggerer.",
+    "source_file": "af_howto_run-with-systemd.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "add to",
+    "object": "AIRFLOW_HOME",
+    "sentence": "(Airflow adds $AIRFLOW_HOME/config to sys.path when Airflow is initialized)",
+    "source_file": "af_howto_set-config.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "use By",
+    "object": "SQLite",
+    "sentence": "By default, Airflow uses SQLite , which is intended for development purposes only.",
+    "source_file": "af_howto_set-up-database.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "use",
+    "object": "SQLAlchemy",
+    "sentence": "Database URI Airflow uses SQLAlchemy to connect to the database, which requires you to configure the Database URL.",
+    "source_file": "af_howto_set-up-database.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "use By",
+    "object": "LocalExecutor",
+    "sentence": "By default, Airflow uses LocalExecutor .",
+    "source_file": "af_howto_set-up-database.txt"
+  },
+  {
+    "subject": "API",
+    "relation": "for",
+    "object": "UI",
+    "sentence": "It supports several applications: the Airflow REST API, an internal API for the Airflow UI that hosts static JS, and an API for workers to interact with when executing TIs via the task execution interface.",
+    "source_file": "af_installation_upgrading_to_airflow3.txt"
+  },
+  {
+    "subject": "Contributor",
+    "relation": "mean on",
+    "object": "Licensor",
+    "sentence": "For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\" \"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.",
+    "source_file": "af_license.txt"
+  },
+  {
+    "subject": "Grant",
+    "relation": "of",
+    "object": "License",
+    "sentence": "Grant of Copyright License.",
+    "source_file": "af_license.txt"
+  },
+  {
+    "subject": "Contributor",
+    "relation": "grant to",
+    "object": "license",
+    "sentence": "Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.",
+    "source_file": "af_license.txt"
+  },
+  {
+    "subject": "Contribution",
+    "relation": "submit to",
+    "object": "Licensor",
+    "sentence": "Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions.",
+    "source_file": "af_license.txt"
+  },
+  {
+    "subject": "Add",
+    "relation": "for",
+    "object": "PostgreSQL",
+    "sentence": "5a5d3253e946 d2f4e1b3c5a7 3.4.0 Add GIN index on asset_event.extra for PostgreSQL.",
+    "source_file": "af_migrations-ref.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "follow",
+    "object": "SemVer",
+    "sentence": "Although Airflow follows SemVer this is not a promise of 100% compatibility between minor or patch releases, simply because this is not possible: what is a bug to one person might be a feature another person is depending on.",
+    "source_file": "af_release-process.txt"
+  },
+  {
+    "subject": "HS512",
+    "relation": "for",
+    "object": "RS256",
+    "sentence": "Auto-detected from key type: HS512 for symmetric, RS256 for RSA , EdDSA for Ed25519 .",
+    "source_file": "af_security_jwt_token_authentication.txt"
+  },
+  {
+    "subject": "RS256",
+    "relation": "for",
+    "object": "RSA",
+    "sentence": "Auto-detected from key type: HS512 for symmetric, RS256 for RSA , EdDSA for Ed25519 .",
+    "source_file": "af_security_jwt_token_authentication.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "use",
+    "object": "JWT",
+    "sentence": "JWT authentication and workload isolation Airflow uses JWT (JSON Web Token) authentication for both its public REST API and its internal Execution API.",
+    "source_file": "af_security_security_model.txt"
+  },
+  {
+    "subject": "figure",
+    "relation": "be",
+    "object": "bound",
+    "sentence": "The ten-minute figure is not a bound on exposure after a leak.",
+    "source_file": "af_security_security_model.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "issue for",
+    "object": "CVE",
+    "sentence": "Airflow will no longer issue CVE for cases of SQL Injection unless the reporter can demonstrate a scenario of exploitation.",
+    "source_file": "af_security_sql.txt"
+  },
+  {
+    "subject": "contribution",
+    "relation": "to",
+    "object": "Airflow",
+    "sentence": "This can be a contribution to Airflow or to the dependency or even to other dependencies.",
+    "source_file": "af_security_vulnerabilities-in-3rd-party-dependencies.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "support",
+    "object": "Python",
+    "sentence": "Starting with Airflow 3.2.0, Airflow supports Python 3.10, 3.11, 3.12, 3.13, 3.14. Officially supported installation methods are pip or uv .",
+    "source_file": "af_start.txt"
+  },
+  {
+    "subject": "Notice",
+    "relation": "inherit from",
+    "object": "BaseOperator",
+    "sentence": "Notice how we mix operator-specific arguments (like bash_command ) with common arguments (like retries ) inherited from BaseOperator .",
+    "source_file": "af_tutorial_fundamentals.txt"
+  },
+  {
+    "subject": "Markdown",
+    "relation": "in",
+    "object": "UI",
+    "sentence": "Dag documentation is rendered as Markdown in the UI.",
+    "source_file": "af_tutorial_fundamentals.txt"
+  },
+  {
+    "subject": "HITL",
+    "relation": "look in",
+    "object": "Dag",
+    "sentence": "An HITL Example Dag Here is what HITL looks like in a Dag.",
+    "source_file": "af_tutorial_hitl.txt"
+  },
+  {
+    "subject": "URL",
+    "relation": "of",
+    "object": "UI",
+    "sentence": "It accepts four arguments: context \u2013 automatically passed to notify by the notifier base_url \u2013 (optional) the base URL of the Airflow UI; if not provided, api.base_url in the configuration will be used options \u2013 (optional) preselected options for the UI page params_inputs \u2013 (optional) pre-loaded inputs for the UI page This makes it easy to include actionable links in notifications or logs.",
+    "source_file": "af_tutorial_hitl.txt"
+  },
+  {
+    "subject": "S3",
+    "relation": "to",
+    "object": "GCS",
+    "sentence": "Use object sensors (like S3KeySensor ) to wait for files uploaded by external systems Orchestrate S3-to-GCS transfers or cross-region data syncs",
+    "source_file": "af_tutorial_objectstorage.txt"
+  },
+  {
+    "subject": "Note",
+    "relation": "require",
+    "object": "Airflow",
+    "sentence": "Note Requires Airflow 2.4 and the Kubernetes provider.",
+    "source_file": "af_tutorial_taskflow.txt"
+  },
+  {
+    "subject": "service",
+    "relation": "with",
+    "object": "NodePort",
+    "sentence": "Use a service with type NodePort or LoadBalancer to make the service reachable outside the cluster.",
+    "source_file": "k8s_access-application-cluster_access-cluster-services.txt"
+  },
+  {
+    "subject": "LoadBalancer",
+    "relation": "use",
+    "object": "TCP",
+    "sentence": "Cloud Load Balancers on external services: are provided by some cloud providers (e.g. AWS ELB, Google Cloud Load Balancer) are created automatically when the Kubernetes service has type LoadBalancer use UDP/TCP only implementation varies by cloud provider.",
+    "source_file": "k8s_access-application-cluster_access-cluster.txt"
+  },
+  {
+    "subject": "Service",
+    "relation": "of",
+    "object": "NodePort",
+    "sentence": "If your environment does not support this, you can use a Service of type NodePort instead.",
+    "source_file": "k8s_access-application-cluster_connecting-frontend-backend.txt"
+  },
+  {
+    "subject": "IP",
+    "relation": "of",
+    "object": "Service",
+    "sentence": "You can hit the endpoint by using the curl command on the external IP of your frontend Service.",
+    "source_file": "k8s_access-application-cluster_connecting-frontend-backend.txt"
+  },
+  {
+    "subject": "Local",
+    "relation": "preserve",
+    "object": "IP",
+    "sentence": "Local preserves the client source IP and avoids a second hop for LoadBalancer and NodePort type Services, but risks potentially imbalanced traffic spreading. .spec.healthCheckNodePort - specifies the health check node port (numeric port number) for the service.",
+    "source_file": "k8s_access-application-cluster_create-external-load-balancer.txt"
+  },
+  {
+    "subject": "Deployment",
+    "relation": "manage",
+    "object": "ReplicaSet",
+    "sentence": "The Deployment automatically manages a ReplicaSet.",
+    "source_file": "k8s_access-application-cluster_port-forward-access-application-cluster.txt"
+  },
+  {
+    "subject": "IP",
+    "relation": "from",
+    "object": "CIDR",
+    "sentence": "The MASTER_CLUSTER_IP is usually the first IP from the service CIDR that is specified as the --service-cluster-ip-range argument for both the API server and the controller manager component.",
+    "source_file": "k8s_administer-cluster_certificates.txt"
+  },
+  {
+    "subject": "StorageClass",
+    "relation": "on",
+    "object": "PersistentVolumeClaim",
+    "sentence": "When a PersistentVolumeClaim is created with a specified volumeName , it remains in a pending state if the static volume's storageClassName does not match the StorageClass on the PersistentVolumeClaim .",
+    "source_file": "k8s_administer-cluster_change-default-storage-class.txt"
+  },
+  {
+    "subject": "Deployment",
+    "relation": "for",
+    "object": "DNS",
+    "sentence": "For example, if the name of your Deployment for DNS is coredns, your scale target is Deployment/coredns.",
+    "source_file": "k8s_administer-cluster_dns-horizontal-autoscaling.txt"
+  },
+  {
+    "subject": "API",
+    "relation": "call to",
+    "object": "service",
+    "sentence": "You may be interested in using this capability if any of the below are true: API calls to a cloud provider service are required to retrieve authentication information for a registry.",
+    "source_file": "k8s_administer-cluster_kubelet-credential-provider.txt"
+  },
+  {
+    "subject": "Migrating",
+    "relation": "from",
+    "object": "Docker",
+    "sentence": "Migrating from Docker-only to generic container metrics in Dynatrace Containerd support announcement: Get automated full-stack visibility into containerd-based Kubernetes environments CRI-O support announcement: Get automated full-stack visibility into your CRI-O Kubernetes containers (Beta) The pod accessing Docker may have name containing: - dynatrace-oneagent Falco How to migrate: Migrate Falco from dockershim Falco supports any CRI-compatible runtime (containerd is used in the default configuration); the documentation explains all details.",
+    "source_file": "k8s_administer-cluster_migrating-from-dockershim_migrating-telemetry-and-security-agents.txt"
+  },
+  {
+    "subject": "DNS",
+    "relation": "query to",
+    "object": "UDP",
+    "sentence": "Upgrading DNS queries from UDP to TCP would reduce tail latency attributed to dropped UDP packets and DNS timeouts usually up to 30s (3 retries + 10s timeout).",
+    "source_file": "k8s_administer-cluster_nodelocaldns.txt"
+  },
+  {
+    "subject": "DNS",
+    "relation": "query to",
+    "object": "TCP",
+    "sentence": "Upgrading DNS queries from UDP to TCP would reduce tail latency attributed to dropped UDP packets and DNS timeouts usually up to 30s (3 retries + 10s timeout).",
+    "source_file": "k8s_administer-cluster_nodelocaldns.txt"
+  },
+  {
+    "subject": "Corefile",
+    "relation": "in",
+    "object": "ConfigMap",
+    "sentence": "Stub domain configuration The Corefile in the node-local-dns ConfigMap can be modified with the stubDomain configuration.",
+    "source_file": "k8s_administer-cluster_nodelocaldns.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "use",
+    "object": "IPC",
+    "sentence": "IPC sysctls ( kernel.sem , kernel.msg* , kernel.shm* , fs.mqueue.* ) are skipped if the Pod uses host IPC ( hostIPC: true ). user.",
+    "source_file": "k8s_administer-cluster_sysctl-cluster.txt"
+  },
+  {
+    "subject": "Dashboard",
+    "relation": "be",
+    "object": "UI",
+    "sentence": "Web UI (Dashboard) Dashboard is a general purpose, web-based UI for Kubernetes clusters.",
+    "source_file": "k8s_architecture__index.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "in",
+    "object": "Deployment",
+    "sentence": "If a Pod in a Deployment or StatefulSet fails, Kubernetes creates a replacement Pod to maintain the specified number of replicas.",
+    "source_file": "k8s_architecture_self-healing.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "behind",
+    "object": "Service",
+    "sentence": "Load balancing for Services: If a Pod behind a Service fails, Kubernetes automatically removes it from the Service's endpoints to route traffic only to healthy Pods.",
+    "source_file": "k8s_architecture_self-healing.txt"
+  },
+  {
+    "subject": "Deployment",
+    "relation": "via",
+    "object": "ReplicaSet",
+    "sentence": "Deployment (via ReplicaSet), ReplicaSet, StatefulSet and DaemonSet controllers: Maintain the desired number of Pod replicas.",
+    "source_file": "k8s_architecture_self-healing.txt"
+  },
+  {
+    "subject": "API",
+    "relation": "for",
+    "object": "service",
+    "sentence": "Gateway API is an open source project managed by the SIG Network community and provides an expressive, extensible, and role-oriented API for modeling service networking.",
+    "source_file": "k8s_cluster-administration_addons.txt"
+  },
+  {
+    "subject": "Headlamp",
+    "relation": "be",
+    "object": "UI",
+    "sentence": "Headlamp is an extensible Kubernetes UI that can be deployed in-cluster or used as a desktop application.",
+    "source_file": "k8s_cluster-administration_addons.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "write",
+    "object": "MiB",
+    "sentence": "For example, if a Pod writes 40 MiB of logs and the kubelet rotates logs after 10 MiB, running kubectl logs returns at most 10MiB of data.",
+    "source_file": "k8s_cluster-administration_logging.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "to",
+    "object": "Service",
+    "sentence": "Pod-to-Service communications: this is covered by Services .",
+    "source_file": "k8s_cluster-administration_networking.txt"
+  },
+  {
+    "subject": "External",
+    "relation": "to",
+    "object": "Service",
+    "sentence": "External-to-Service communications: this is also covered by Services.",
+    "source_file": "k8s_cluster-administration_networking.txt"
+  },
+  {
+    "subject": "StatefulSet",
+    "relation": "create with",
+    "object": "pod",
+    "sentence": "This is because kubelet on the shutdown node is not available to delete the pods so the StatefulSet cannot create a new pod with the same name.",
+    "source_file": "k8s_cluster-administration_node-shutdown.txt"
+  },
+  {
+    "subject": "Updating",
+    "relation": "via",
+    "object": "ConfigMap",
+    "sentence": "Updating Configuration via a ConfigMap (another tutorial) and you can review the list of configuration file formats in the reference section.",
+    "source_file": "k8s_configuration__index.txt"
+  },
+  {
+    "subject": "manual",
+    "relation": "for",
+    "object": "PersistentVolume",
+    "sentence": "It defines the StorageClass name manual for the PersistentVolume, which will be used to bind PersistentVolumeClaim requests to this PersistentVolume.",
+    "source_file": "k8s_configuration_configure-persistent-volume-storage.txt"
+  },
+  {
+    "subject": "Retain",
+    "relation": "create",
+    "object": "PersistentVolumeClaim",
+    "sentence": "This means it has not yet been bound to a PersistentVolumeClaim. NAME             CAPACITY   ACCESSMODES   RECLAIMPOLICY   STATUS      CLAIM     STORAGECLASS   REASON    AGE task-pv-volume   10Gi       RWO           Retain          Available             manual                   4s Create a PersistentVolumeClaim The next step is to create a PersistentVolumeClaim.",
+    "source_file": "k8s_configuration_configure-persistent-volume-storage.txt"
+  },
+  {
+    "subject": "PersistentVolumeClaim",
+    "relation": "bind to",
+    "object": "PersistentVolume",
+    "sentence": "NAME             CAPACITY   ACCESSMODES   RECLAIMPOLICY   STATUS    CLAIM                   STORAGECLASS   REASON    AGE task-pv-volume   10Gi       RWO           Retain          Bound     default/task-pv-claim   manual                   2m Look at the PersistentVolumeClaim: shell kubectl get pvc task-pv-claim The output shows that the PersistentVolumeClaim is bound to your PersistentVolume, task-pv-volume .",
+    "source_file": "k8s_configuration_configure-persistent-volume-storage.txt"
+  },
+  {
+    "subject": "EOF",
+    "relation": "create",
+    "object": "Pod",
+    "sentence": "EOF ``` Create a Pod Here we will create a pod that uses the existing persistentVolume and persistentVolumeClaim.",
+    "source_file": "k8s_configuration_configure-persistent-volume-storage.txt"
+  },
+  {
+    "subject": "GID",
+    "relation": "add to",
+    "object": "Pod",
+    "sentence": "Then the GID is automatically added to any Pod that uses the PersistentVolume.",
+    "source_file": "k8s_configuration_configure-persistent-volume-storage.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "consume",
+    "object": "PersistentVolume",
+    "sentence": "Use the pv.beta.kubernetes.io/gid annotation as follows: yaml apiVersion: v1 kind: PersistentVolume metadata: name: pv1 annotations: pv.beta.kubernetes.io/gid: \"1234\" When a Pod consumes a PersistentVolume that has a GID annotation, the annotated GID is applied to all containers in the Pod in the same way that GIDs specified in the Pod's security context are.",
+    "source_file": "k8s_configuration_configure-persistent-volume-storage.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "have",
+    "object": "bound",
+    "sentence": "If you do not set a memory limit, the pod has no upper bound on memory consumption, and can consume all available memory on the node.",
+    "source_file": "k8s_configuration_manage-resources-containers.txt"
+  },
+  {
+    "subject": "PID",
+    "relation": "limit",
+    "object": "ID",
+    "sentence": "yaml apiVersion: v1 kind: Pod metadata: name: my-pod spec: containers: - name: my-container image: myimage resources: requests: cpu: 2 example.com/foo: 1 limits: example.com/foo: 1 PID limiting Process ID (PID) limits allow for the configuration of a kubelet to limit the number of PIDs that a given Pod can consume.",
+    "source_file": "k8s_configuration_manage-resources-containers.txt"
+  },
+  {
+    "subject": "NativeSidecar",
+    "relation": "on",
+    "object": "restart",
+    "sentence": "NativeSidecar on restart (when native sidecars are supported) checks that file already exists in the empty dir and changes it - indicating that the built-in sidecar containers are supported and running.",
+    "source_file": "k8s_configuration_pod-sidecar-containers.txt"
+  },
+  {
+    "subject": "service",
+    "relation": "reveal For",
+    "object": "Secret",
+    "sentence": "For example, a service that Pods access over HTTPS, that reveals a Secret if the client correctly authenticates (for example, with a ServiceAccount token).",
+    "source_file": "k8s_configuration_secret.txt"
+  },
+  {
+    "subject": "Secret",
+    "relation": "of",
+    "object": "Opaque",
+    "sentence": "For example, the following command creates an empty Secret of type Opaque : shell kubectl create secret generic empty-secret kubectl get secret empty-secret The output looks like: NAME           TYPE     DATA   AGE empty-secret   Opaque   0      2m6s",
+    "source_file": "k8s_configuration_secret.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "use during",
+    "object": "burst",
+    "sentence": "The amount of CPU resources a Pod can use during a burst is limited to some reasonable amount.",
+    "source_file": "k8s_configure-pod-container_assign-cpu-resource.txt"
+  },
+  {
+    "subject": "API",
+    "relation": "from",
+    "object": "Kubernetes 1.32",
+    "sentence": "Some older DRA drivers or workloads might still need the v1beta1 API from Kubernetes 1.30 or v1beta2 from Kubernetes 1.32.",
+    "source_file": "k8s_configure-pod-container_assign-resources_set-up-dra-cluster.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "reach",
+    "object": "DC",
+    "sentence": "This will tell us 3 things: The Pod can reach the DC The DC can reach the Pod DNS is working correctly.",
+    "source_file": "k8s_configure-pod-container_configure-gmsa.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "mark",
+    "object": "unready",
+    "sentence": "If the readiness probe fails, the pod will be marked unready and will not receive traffic from any services.",
+    "source_file": "k8s_configure-pod-container_configure-liveness-readiness-startup-probes.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "in",
+    "object": "ConfigMap",
+    "sentence": "Once you're happy to move on, delete that Pod and ConfigMap: shell kubectl delete pod dapi-test-pod --now kubectl delete configmap special-config kubectl delete configmap env-config Configure all key-value pairs in a ConfigMap as container environment variables Create a ConfigMap containing multiple key-value pairs.",
+    "source_file": "k8s_configure-pod-container_configure-pod-configmap.txt"
+  },
+  {
+    "subject": "Secret",
+    "relation": "contain",
+    "object": "API",
+    "sentence": "-o yaml you can see that the Secret now contains an API token for the \"build-robot\" ServiceAccount.",
+    "source_file": "k8s_configure-pod-container_configure-service-account.txt"
+  },
+  {
+    "subject": "Secret",
+    "relation": "in",
+    "object": "API",
+    "sentence": "-o yaml You can't see the build-robot-secret Secret in the ServiceAccount API objects .secrets field because that field is only populated with auto-generated Secrets.",
+    "source_file": "k8s_configure-pod-container_configure-service-account.txt"
+  },
+  {
+    "subject": "URL",
+    "relation": "comply with",
+    "object": "OIDC",
+    "sentence": "The issuer URL must comply with the OIDC Discovery Spec .",
+    "source_file": "k8s_configure-pod-container_configure-service-account.txt"
+  },
+  {
+    "subject": "PD",
+    "relation": "on",
+    "object": "GCE",
+    "sentence": "In addition to the local disk storage provided by emptyDir , Kubernetes supports many different network-attached storage solutions, including PD on GCE and EBS on EC2, which are preferred for critical data and will handle details such as mounting and unmounting the devices on the nodes.",
+    "source_file": "k8s_configure-pod-container_configure-volume-storage.txt"
+  },
+  {
+    "subject": "Migrate",
+    "relation": "from",
+    "object": "PodSecurityPolicy",
+    "sentence": "title: Migrate from PodSecurityPolicy to the Built-In PodSecurity Admission Controller reviewers: - tallclair - liggitt content_type: task min-kubernetes-server-version: v1.22 weight: 260 This page describes the process of migrating from PodSecurityPolicies to the built-in PodSecurity admission controller.",
+    "source_file": "k8s_configure-pod-container_migrate-from-psp.txt"
+  },
+  {
+    "subject": "migrating",
+    "relation": "from",
+    "object": "PodSecurityPolicy",
+    "sentence": "Overall approach There are multiple strategies you can take for migrating from PodSecurityPolicy to Pod Security Admission.",
+    "source_file": "k8s_configure-pod-container_migrate-from-psp.txt"
+  },
+  {
+    "subject": "Infeasible",
+    "relation": "add to",
+    "object": "Pod",
+    "sentence": "A condition with type: PodResizePending and reason: Infeasible was added to the Pod.",
+    "source_file": "k8s_configure-pod-container_resize-container-resources.txt"
+  },
+  {
+    "subject": "restart",
+    "relation": "occur due",
+    "object": "Container 1",
+    "sentence": "The restart occurred in Container 1 despite the resize being applied at the Pod level, due to the intricate relationship between Pod-level limits and container-level policies.",
+    "source_file": "k8s_configure-pod-container_resize-pod-resources.txt"
+  },
+  {
+    "subject": "CapPrm",
+    "relation": "make",
+    "object": "note",
+    "sentence": "CapPrm: 00000000a80425fb CapEff: 00000000a80425fb ... Make a note of the capabilities bitmap, and then exit your shell: shell exit Next, run a Container that is the same as the preceding container, except that it has additional capabilities set.",
+    "source_file": "k8s_configure-pod-container_security-context.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "use",
+    "object": "PersistentVolumeClaim",
+    "sentence": "To benefit from this speedup, all these conditions must be met: Pod must use a PersistentVolumeClaim.",
+    "source_file": "k8s_configure-pod-container_security-context.txt"
+  },
+  {
+    "subject": "Kompose",
+    "relation": "release on",
+    "object": "GitHub",
+    "sentence": "Kompose is released via GitHub on a three-week cycle, you can see all current releases on the GitHub release page .",
+    "source_file": "k8s_configure-pod-container_translate-compose-kubernetes.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "stick in",
+    "object": "Pending",
+    "sentence": "My pod stays pending If a Pod is stuck in Pending it means that it can not be scheduled onto a node.",
+    "source_file": "k8s_debug_debug-application_debug-pods.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "set",
+    "object": "Thu",
+    "sentence": "------- NetworkUnavailable   False     Thu, 17 Feb 2022 17:09:13 -0500   Thu, 17 Feb 2022 17:09:13 -0500   WeaveIsUp           Weave pod has set this MemoryPressure       Unknown   Thu, 17 Feb 2022 17:12:40 -0500   Thu, 17 Feb 2022 17:13:52 -0500   NodeStatusUnknown",
+    "source_file": "k8s_debug_debug-cluster__index.txt"
+  },
+  {
+    "subject": "HorizontalPodAutoscaler",
+    "relation": "use from",
+    "object": "API",
+    "sentence": "The HorizontalPodAutoscaler (HPA) and VerticalPodAutoscaler (VPA) use data from the metrics API to adjust workload replicas and resources to meet customer demand.",
+    "source_file": "k8s_debug_debug-cluster_resource-metrics-pipeline.txt"
+  },
+  {
+    "subject": "docker",
+    "relation": "FROM",
+    "object": "ADD",
+    "sentence": "Here is the Dockerfile to build the image: docker FROM busybox ADD ./_output/local/bin/linux/amd64/kube-scheduler /usr/local/bin/kube-scheduler Save the file as Dockerfile , build the image and push it to a registry.",
+    "source_file": "k8s_extend-kubernetes_configure-multiple-schedulers.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "mount as",
+    "object": "ConfigMap",
+    "sentence": "The Pod of the my-scheduler Deployment mounts the my-scheduler-config ConfigMap as a volume.",
+    "source_file": "k8s_extend-kubernetes_configure-multiple-schedulers.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "of",
+    "object": "Deployment",
+    "sentence": "The Pod of the my-scheduler Deployment mounts the my-scheduler-config ConfigMap as a volume.",
+    "source_file": "k8s_extend-kubernetes_configure-multiple-schedulers.txt"
+  },
+  {
+    "subject": "service",
+    "relation": "of",
+    "object": "url",
+    "sentence": "If the webhook is running within the cluster, then you should use service instead of url .",
+    "source_file": "k8s_extend-kubernetes_custom-resources_custom-resource-definition-versioning.txt"
+  },
+  {
+    "subject": "URL",
+    "relation": "like",
+    "object": "api",
+    "sentence": "Note also that with socks5h , a k8s API server URL like https://localhost:6443/api does not refer to your local client computer.",
+    "source_file": "k8s_extend-kubernetes_socks5-proxy-access-api.txt"
+  },
+  {
+    "subject": "dashboard",
+    "relation": "as",
+    "object": "Deployment",
+    "sentence": "You can create Kubernetes resources on the dashboard such as Deployment and Service.",
+    "source_file": "k8s_hello-minikube.txt"
+  },
+  {
+    "subject": "dashboard",
+    "relation": "use",
+    "object": "URL",
+    "sentence": "minikube dashboard --url ``` Now, you can use this URL and switch back to the terminal where you ran minikube start .",
+    "source_file": "k8s_hello-minikube.txt"
+  },
+  {
+    "subject": "Service",
+    "relation": "for",
+    "object": "StatefulSet",
+    "sentence": "Start RabbitMQ as follows: ```shell make a Service for the StatefulSet to use kubectl create -f https://kubernetes.io/examples/application/job/rabbitmq/rabbitmq-service.yaml service \"rabbitmq-service\" created ``` shell kubectl create -f https://kubernetes.io/examples/application/job/rabbitmq/rabbitmq-statefulset.yaml statefulset \"rabbitmq\" created Testing the message queue service",
+    "source_file": "k8s_job_coarse-parallel-processing-work-queue.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "of",
+    "object": "Job",
+    "sentence": "The \"worker\" program in each Pod of the Job uses the work queue client library to get work.",
+    "source_file": "k8s_job_fine-parallel-processing-work-queue.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "in",
+    "object": "Job",
+    "sentence": "Indexed completion would mean that each Pod in the Job knows which frame to render and publish, by counting frames from the start of the clip.",
+    "source_file": "k8s_job_indexed-parallel-processing-static.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "for",
+    "object": "Job",
+    "sentence": "In a real use case, each Pod for a Job writes its output to durable storage before completing.",
+    "source_file": "k8s_job_parallel-processing-expansion.txt"
+  },
+  {
+    "subject": "IPs",
+    "relation": "expose without",
+    "object": "Service",
+    "sentence": "Although each Pod has a unique IP address, those IPs are not exposed outside the cluster without a Service.",
+    "source_file": "k8s_kubernetes-basics_expose_expose-intro.txt"
+  },
+  {
+    "subject": "Service",
+    "relation": "receive",
+    "object": "IP",
+    "sentence": "Here we see that the Service received a unique cluster-IP, an internal port and an external-IP (the IP of the Node).",
+    "source_file": "k8s_kubernetes-basics_expose_expose-intro.txt"
+  },
+  {
+    "subject": "Deployment",
+    "relation": "create for",
+    "object": "Pod",
+    "sentence": "The Deployment created only one Pod for running our application.",
+    "source_file": "k8s_kubernetes-basics_scale_scale-intro.txt"
+  },
+  {
+    "subject": "service",
+    "relation": "create for",
+    "object": "Deployment",
+    "sentence": "In this section, it is assumed that a service with type: LoadBalancer is created for the kubernetes-bootcamp Deployment.",
+    "source_file": "k8s_kubernetes-basics_scale_scale-intro.txt"
+  },
+  {
+    "subject": "LoadBalancer",
+    "relation": "create for",
+    "object": "Deployment",
+    "sentence": "In this section, it is assumed that a service with type: LoadBalancer is created for the kubernetes-bootcamp Deployment.",
+    "source_file": "k8s_kubernetes-basics_scale_scale-intro.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "provide For",
+    "object": "service",
+    "sentence": "For example, the Pod might provide cache service to the node, and the cache is only useful when low-latency local storage is available.",
+    "source_file": "k8s_manage-daemon_pods-some-nodes.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "of",
+    "object": "DaemonSet",
+    "sentence": "At most one pod of the DaemonSet will be running on each node during the whole update process.",
+    "source_file": "k8s_manage-daemon_update-daemon-set.txt"
+  },
+  {
+    "subject": "PodSpec",
+    "relation": "in",
+    "object": "Deployment",
+    "sentence": "The output shows that the PodSpec in the Deployment has two Containers: yaml containers: - image: redis imagePullPolicy: Always name: patch-demo-ctr-2 ... - image: nginx imagePullPolicy: Always name: patch-demo-ctr ...",
+    "source_file": "k8s_manage-kubernetes-objects_update-api-object-kubectl-patch.txt"
+  },
+  {
+    "subject": "IPs",
+    "relation": "from",
+    "object": "CIDR",
+    "sentence": "Managing existing Services: Services with IPs from the old CIDR need to be addressed if they are not within the new configured ranges.",
+    "source_file": "k8s_network_reconfigure-default-service-ip-ranges.txt"
+  },
+  {
+    "subject": "Service",
+    "relation": "from",
+    "object": "ip",
+    "sentence": "Kubernetes will assign a cluster IP for the Service from the IPv6 range configured service-cluster-ip-range and set the .spec.ipFamilyPolicy to SingleStack .",
+    "source_file": "k8s_network_validate-dual-stack.txt"
+  },
+  {
+    "subject": "API",
+    "relation": "from",
+    "object": "OpenAPI",
+    "sentence": "This is a Kubernetes specific term as it is a separate API from the Kubernetes OpenAPI.",
+    "source_file": "k8s_overview_kubernetes-api.txt"
+  },
+  {
+    "subject": "PID",
+    "relation": "limit per",
+    "object": "Pod",
+    "sentence": "PID limiting - per Pod and per Node sets the hard limit.",
+    "source_file": "k8s_policy_pid-limiting.txt"
+  },
+  {
+    "subject": "ResourceClaim",
+    "relation": "bind to",
+    "object": "Pod",
+    "sentence": "Each ResourceClaim that Kubernetes generates from the template is bound to a specific Pod.",
+    "source_file": "k8s_resource-management_dynamic-resource-allocation_dra-api.txt"
+  },
+  {
+    "subject": "ResourceClaim",
+    "relation": "for",
+    "object": "PodGroup",
+    "sentence": "Kubernetes generates one ResourceClaim for the PodGroup from the specification in the ResourceClaimTemplate.",
+    "source_file": "k8s_resource-management_dynamic-resource-allocation_dra-api.txt"
+  },
+  {
+    "subject": "refer",
+    "relation": "to",
+    "object": "ResourceClaim",
+    "sentence": "The PodGroup API defines a spec.resourceClaims field with the same structure and similar meaning as the spec.resourceClaims field in the Pod API: yaml apiVersion: scheduling.k8s.io/v1beta1 kind: PodGroup metadata: name: training-group namespace: some-ns spec: ... resourceClaims: - name: pg-claim resourceClaimName: my-pg-claim - name: pg-claim-template resourceClaimTemplateName: my-pg-template Like claims made by Pods, claims for PodGroups defining a resourceClaimName refer to a ResourceClaim by name.",
+    "source_file": "k8s_resource-management_dynamic-resource-allocation_dra-api.txt"
+  },
+  {
+    "subject": "ResourceClaim",
+    "relation": "generate for",
+    "object": "PodGroup",
+    "sentence": "When a Pod claim matching a PodGroup claim defines a resourceClaimTemplateName , then one ResourceClaim is generated for the PodGroup.",
+    "source_file": "k8s_resource-management_dynamic-resource-allocation_dra-api.txt"
+  },
+  {
+    "subject": "ResourceClaim",
+    "relation": "generate from",
+    "object": "ResourceClaimTemplate",
+    "sentence": "The Pod's pod-claim and pod-claim-template claims do not match any claim made by the PodGroup, so those claims are not affected by the PodGroup: ResourceClaim my-pod-claim becomes reserved for the Pod and a ResourceClaim is generated from ResourceClaimTemplate my-pod-template and also becomes reserved for the Pod.",
+    "source_file": "k8s_resource-management_dynamic-resource-allocation_dra-api.txt"
+  },
+  {
+    "subject": "ResourceClaim",
+    "relation": "filter in",
+    "object": "DeviceClass",
+    "sentence": "There's one device in the ResourceSlice, named large-black-cat , with the following attributes: color : black size : large cat : true A DeviceClass could select this ResourceSlice by using these attributes, and a ResourceClaim could filter for specific devices in that DeviceClass.",
+    "source_file": "k8s_resource-management_dynamic-resource-allocation_dra-api.txt"
+  },
+  {
+    "subject": "gpu",
+    "relation": "publish under",
+    "object": "numa",
+    "sentence": "yaml apiVersion: resource.k8s.io/v1 kind: ResourceClaim metadata: name: gpu-nic-numa-alignment spec: devices: requests: - name: gpu exactly: deviceClassName: gpu.example.com count: 1 derivedAttributes: - name: derived/numa expression: device.attributes[\"gpu.example.com\"].numa - name: nic exactly: deviceClassName: nic.example.com count: 1 derivedAttributes: - name: derived/numa expression: device.attributes[\"nic.example.com\"].numaNode constraints: - requests: [\"gpu\", \"nic\"] matchAttribute: derived/numa In this example, the gpu and nic drivers publish topology information under different attribute names ( numa and numaNode ).",
+    "source_file": "k8s_resource-management_dynamic-resource-allocation_dra-api.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "use with",
+    "object": "ResourceClaim",
+    "sentence": "When a Pod uses a ResourceClaim with skipNodeOperations configured, the Kubernetes scheduler verifies that the target node declares support for the DRAOptionalNodeOperations feature in its .status.declaredFeatures before scheduling the Pod.",
+    "source_file": "k8s_resource-management_dynamic-resource-allocation_dra-features.txt"
+  },
+  {
+    "subject": "Deployment",
+    "relation": "update",
+    "object": "ReplicaSet",
+    "sentence": "The Deployment then updates the ReplicaSet - this is part of how all Deployments work in Kubernetes - and then the ReplicaSet either adds or removes Pods based on the change to its .spec .",
+    "source_file": "k8s_run-application_horizontal-pod-autoscale-walkthrough.txt"
+  },
+  {
+    "subject": "deployment",
+    "relation": "consist of",
+    "object": "ConfigMap",
+    "sentence": "Deploy MySQL The example MySQL deployment consists of a ConfigMap, two Services, and a StatefulSet.",
+    "source_file": "k8s_run-application_run-replicated-stateful-application.txt"
+  },
+  {
+    "subject": "Service",
+    "relation": "with",
+    "object": "IP",
+    "sentence": "The client Service, called mysql-read , is a normal Service with its own cluster IP that distributes connections across all MySQL Pods that report being Ready.",
+    "source_file": "k8s_run-application_run-replicated-stateful-application.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "lose in",
+    "object": "PersistentVolumeClaim",
+    "sentence": "This server remains up indefinitely in case the StatefulSet scales up, or in case the next Pod loses its PersistentVolumeClaim and needs to redo the clone.",
+    "source_file": "k8s_run-application_run-replicated-stateful-application.txt"
+  },
+  {
+    "subject": "PersistentVolume",
+    "relation": "mount to",
+    "object": "Pod",
+    "sentence": "The underlying PersistentVolume can only be mounted to one Pod.",
+    "source_file": "k8s_run-application_run-single-instance-stateful-application.txt"
+  },
+  {
+    "subject": "QoS",
+    "relation": "for",
+    "object": "pod",
+    "sentence": "The kubelet sets an oom_score_adj value for each container based on the QoS for the pod.",
+    "source_file": "k8s_scheduling-eviction_node-pressure-eviction.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "be",
+    "object": "QoS",
+    "sentence": "For CPU, if the Pod is Guaranteed or Burstable QoS, the kubelet will set cpu.shares based on the sum of container requests plus the overhead defined in the PodSpec.",
+    "source_file": "k8s_scheduling-eviction_pod-overhead.txt"
+  },
+  {
+    "subject": "TopologyPlacement",
+    "relation": "generate by",
+    "object": "CompositePodGroup",
+    "sentence": "For a root CompositePodGroup , TopologyPlacement generates candidate placements across all available cluster nodes by grouping nodes based on the distinct values of the requested topology key .",
+    "source_file": "k8s_scheduling-eviction_topology-aware-scheduling.txt"
+  },
+  {
+    "subject": "TopologyPlacement",
+    "relation": "generate For",
+    "object": "PodGroup",
+    "sentence": "For a child CompositePodGroup or leaf PodGroup , TopologyPlacement generates candidate placements confined in the placement assumed by the parent group.",
+    "source_file": "k8s_scheduling-eviction_topology-aware-scheduling.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "match",
+    "object": "topology",
+    "sentence": "Typically, a pod should match its own topology spread constraint selector.",
+    "source_file": "k8s_scheduling-eviction_topology-spread-constraints.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "in",
+    "object": "PodGroup",
+    "sentence": "For each pod in the PodGroup (in the same order as in scheduling algorithm): *",
+    "source_file": "k8s_scheduling-eviction_workload-aware-preemption.txt"
+  },
+  {
+    "subject": "AppArmor",
+    "relation": "apply by",
+    "object": "Pod",
+    "sentence": "Profile is loaded -- AppArmor is applied to a Pod by specifying an AppArmor profile that each container should be run with.",
+    "source_file": "k8s_security_apparmor.txt"
+  },
+  {
+    "subject": "Ubuntu",
+    "relation": "enable by",
+    "object": "AppArmor",
+    "sentence": "For example, Ubuntu 7.10 and later enable AppArmor by default.",
+    "source_file": "k8s_security_linux-kernel-security-constraints.txt"
+  },
+  {
+    "subject": "Delete",
+    "relation": "create with",
+    "object": "Pod",
+    "sentence": "Delete the Pod before moving to the next section: shell kubectl delete pod default-pod --wait --now Create a Pod with a seccomp profile for syscall auditing To start off, apply the audit.json profile, which will log all syscalls of the process, to a new Pod.",
+    "source_file": "k8s_security_seccomp.txt"
+  },
+  {
+    "subject": "API",
+    "relation": "produce for",
+    "object": "ServiceAccount",
+    "sentence": "The TokenRequest API produces bound tokens for a ServiceAccount.",
+    "source_file": "k8s_security_service-accounts.txt"
+  },
+  {
+    "subject": "API",
+    "relation": "recommend",
+    "object": "OIDC",
+    "sentence": "If you have services of your own that need to validate Kubernetes service account credentials, you can use the following methods: TokenReview API (recommended) OIDC discovery The Kubernetes project recommends that you use the TokenReview API, because this method invalidates tokens that are bound to API objects such as Secrets, ServiceAccounts, Pods or Nodes when those objects are deleted.",
+    "source_file": "k8s_security_service-accounts.txt"
+  },
+  {
+    "subject": "NetworkPolicy",
+    "relation": "be between",
+    "object": "API",
+    "sentence": "NetworkPolicy is a built-in Kubernetes API that allows you to control traffic between pods, or between pods and the outside world.",
+    "source_file": "k8s_services-networking__index.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "see as",
+    "object": "FQDN",
+    "sentence": "Example: ```yaml apiVersion: v1 kind: Service metadata: name: busybox-subdomain spec: selector: name: busybox clusterIP: None ports: - name: foo # name is not required for single-port Services port: 1234 apiVersion: v1 kind: Pod metadata: name: busybox1 labels: name: busybox spec: hostname: busybox-1 subdomain: busybox-subdomain containers: - image: busybox:1.28 command: - sleep - \"3600\" name: busybox apiVersion: v1 kind: Pod metadata: name: busybox2 labels: name: busybox spec: hostname: busybox-2 subdomain: busybox-subdomain containers: - image: busybox:1.28 command: - sleep - \"3600\" name: busybox ``` Given the above Service \"busybox-subdomain\" and the Pods which set spec.subdomain to \"busybox-subdomain\" , the first Pod will see its own FQDN as \"busybox-1.busybox-subdomain.my-namespace.svc.cluster-domain.example\" .",
+    "source_file": "k8s_services-networking_dns-pod-service.txt"
+  },
+  {
+    "subject": "IPs",
+    "relation": "for",
+    "object": "Service",
+    "sentence": "PreferDualStack : Allocates both IPv4 and IPv6 cluster IPs for the Service when dual-stack is enabled.",
+    "source_file": "k8s_services-networking_dual-stack.txt"
+  },
+  {
+    "subject": "Service",
+    "relation": "have",
+    "object": "IPv4",
+    "sentence": "When you change this Service from single-stack to dual-stack, Kubernetes assigns the missing address family so that the Service now has IPv4 and IPv6 addresses.",
+    "source_file": "k8s_services-networking_dual-stack.txt"
+  },
+  {
+    "subject": "RequireDualStack",
+    "relation": "to",
+    "object": "SingleStack",
+    "sentence": "Before: yaml spec: ipFamilyPolicy: SingleStack After: yaml spec: ipFamilyPolicy: PreferDualStack To change a Service from dual-stack to single-stack, change .spec.ipFamilyPolicy from PreferDualStack or RequireDualStack to SingleStack .",
+    "source_file": "k8s_services-networking_dual-stack.txt"
+  },
+  {
+    "subject": "Gateway",
+    "relation": "reference",
+    "object": "GatewayClass",
+    "sentence": "A Gateway must reference a GatewayClass that contains the name of the controller that implements the class.",
+    "source_file": "k8s_services-networking_gateway.txt"
+  },
+  {
+    "subject": "Migrating",
+    "relation": "from",
+    "object": "API",
+    "sentence": "Migrating from Ingress Gateway API is the successor to the Ingress API.",
+    "source_file": "k8s_services-networking_gateway.txt"
+  },
+  {
+    "subject": "IngressClass",
+    "relation": "for",
+    "object": "Ingress",
+    "sentence": "If you do not specify an IngressClass for an Ingress, and your cluster has exactly one IngressClass marked as default, then Kubernetes applies the cluster's default IngressClass to the Ingress.",
+    "source_file": "k8s_services-networking_ingress-controllers.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "isolate for",
+    "object": "ingress",
+    "sentence": "A pod is isolated for ingress if there is any NetworkPolicy that both selects the pod and has \"Ingress\" in its policyTypes ; we say that such a policy applies to the pod for ingress.",
+    "source_file": "k8s_services-networking_network-policies.txt"
+  },
+  {
+    "subject": "IP",
+    "relation": "of",
+    "object": "LoadBalancer",
+    "sentence": "In the case of ingress, this means that in some cases you may be able to filter incoming packets based on the actual original source IP, while in other cases, the \"source IP\" that the NetworkPolicy acts on may be the IP of a LoadBalancer or of the Pod's node, etc.",
+    "source_file": "k8s_services-networking_network-policies.txt"
+  },
+  {
+    "subject": "Service",
+    "relation": "link with",
+    "object": "EndpointSlice",
+    "sentence": "Because a Service can be linked with more than one EndpointSlice, the 1000 backing endpoint limit only affects the legacy Endpoints API.",
+    "source_file": "k8s_services-networking_service.txt"
+  },
+  {
+    "subject": "ExternalName",
+    "relation": "maps to",
+    "object": "Service",
+    "sentence": "ExternalName : Maps the Service to the contents of the externalName field (for example, to the hostname api.foo.bar.example ).",
+    "source_file": "k8s_services-networking_service.txt"
+  },
+  {
+    "subject": "Service",
+    "relation": "of",
+    "object": "LoadBalancer",
+    "sentence": "spec.loadBalancerClass can be set on a Service of type LoadBalancer only.",
+    "source_file": "k8s_services-networking_service.txt"
+  },
+  {
+    "subject": "Service",
+    "relation": "set to",
+    "object": "ClusterIP",
+    "sentence": "To define a headless Service, you make a Service with .spec.type set to ClusterIP (which is also the default for type ), and you additionally set .spec.clusterIP to None.",
+    "source_file": "k8s_services-networking_service.txt"
+  },
+  {
+    "subject": "DNS",
+    "relation": "set",
+    "object": "service",
+    "sentence": "DNS You can (and almost always should) set up a DNS service for your Kubernetes cluster using an add-on .",
+    "source_file": "k8s_services-networking_service.txt"
+  },
+  {
+    "subject": "ReplicaSet",
+    "relation": "create with",
+    "object": "IPs",
+    "sentence": "The pods die with it, and the ReplicaSet inside the Deployment will create new ones, with different IPs.",
+    "source_file": "k8s_services_connect-applications-service.txt"
+  },
+  {
+    "subject": "ReplicaSet",
+    "relation": "inside",
+    "object": "Deployment",
+    "sentence": "The pods die with it, and the ReplicaSet inside the Deployment will create new ones, with different IPs.",
+    "source_file": "k8s_services_connect-applications-service.txt"
+  },
+  {
+    "subject": "LoadBalancer",
+    "relation": "create on",
+    "object": "AWS",
+    "sentence": "Note that on AWS, type LoadBalancer creates an ELB, which uses a (long) hostname, not an IP.",
+    "source_file": "k8s_services_connect-applications-service.txt"
+  },
+  {
+    "subject": "IP",
+    "relation": "as",
+    "object": "HTTP",
+    "sentence": "Load balancers in the first category must use an agreed upon protocol between the loadbalancer and backend to communicate the true client IP such as the HTTP Forwarded or X-FORWARDED-FOR headers, or the proxy protocol .",
+    "source_file": "k8s_services_source-ip.txt"
+  },
+  {
+    "subject": "CNAME",
+    "relation": "of",
+    "object": "Service",
+    "sentence": "Discovery for specific Pods in a StatefulSet If you need to find and connect to the active members of a StatefulSet, you should query the CNAME of the headless Service ( nginx.default.svc.cluster.local ).",
+    "source_file": "k8s_stateful-application_basic-stateful-set.txt"
+  },
+  {
+    "subject": "Delete",
+    "relation": "web-1",
+    "object": "pod",
+    "sentence": "Delete the web-1 Pod: shell kubectl delete pod web-1 pod \"web-1\" deleted Wait for the web-1 Pod to be Running and Ready.",
+    "source_file": "k8s_stateful-application_basic-stateful-set.txt"
+  },
+  {
+    "subject": "StatefulSet",
+    "relation": "delete In",
+    "object": "delete",
+    "sentence": "In a cascading delete , both the StatefulSet and its Pods are deleted.",
+    "source_file": "k8s_stateful-application_basic-stateful-set.txt"
+  },
+  {
+    "subject": "delete",
+    "relation": "remove with",
+    "object": "StatefulSet",
+    "sentence": "Although a cascading delete removes a StatefulSet together with its Pods, the cascade does not delete the headless Service associated with the StatefulSet.",
+    "source_file": "k8s_stateful-application_basic-stateful-set.txt"
+  },
+  {
+    "subject": "Download",
+    "relation": "require",
+    "object": "PersistentVolume",
+    "sentence": "Download the following configuration files: mysql-deployment.yaml wordpress-deployment.yaml Create PersistentVolumeClaims and PersistentVolumes MySQL and Wordpress each require a PersistentVolume to store data.",
+    "source_file": "k8s_stateful-application_mysql-wordpress-persistent-volume.txt"
+  },
+  {
+    "subject": "StorageClass",
+    "relation": "specify in",
+    "object": "PersistentVolumeClaim",
+    "sentence": "When a StorageClass is not specified in the PersistentVolumeClaim, the cluster's default StorageClass is used instead.",
+    "source_file": "k8s_stateful-application_mysql-wordpress-persistent-volume.txt"
+  },
+  {
+    "subject": "WordPress",
+    "relation": "access by",
+    "object": "Service",
+    "sentence": "The WORDPRESS_DB_HOST environment variable sets the name of the MySQL Service defined above, and WordPress will access the database by Service.",
+    "source_file": "k8s_stateful-application_mysql-wordpress-persistent-volume.txt"
+  },
+  {
+    "subject": "ZooKeeper",
+    "relation": "be",
+    "object": "service",
+    "sentence": "ZooKeeper Apache ZooKeeper is a distributed, open-source coordination service for distributed applications.",
+    "source_file": "k8s_stateful-application_zookeeper.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "in",
+    "object": "StatefulSet",
+    "sentence": "yaml volumeMounts: - name: datadir mountPath: /var/lib/zookeeper When a Pod in the zk StatefulSet is (re)scheduled, it will always have the same PersistentVolume mounted to the ZooKeeper server's data directory.",
+    "source_file": "k8s_stateful-application_zookeeper.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "from",
+    "object": "StatefulSet",
+    "sentence": "shell kubectl get pdb zk-pdb The max-unavailable field indicates to Kubernetes that at most one Pod from zk StatefulSet can be unavailable at any time.",
+    "source_file": "k8s_stateful-application_zookeeper.txt"
+  },
+  {
+    "subject": "LoadBalancer",
+    "relation": "for",
+    "object": "Service",
+    "sentence": "Please refer to setting type: LoadBalancer for your Service for the details.",
+    "source_file": "k8s_stateless-application_expose-external-ip-address.txt"
+  },
+  {
+    "subject": "Familiarity",
+    "relation": "suggest in",
+    "object": "PersistentVolumeClaim",
+    "sentence": "Familiarity with volumes is suggested, in particular PersistentVolumeClaim and PersistentVolume.",
+    "source_file": "k8s_storage_ephemeral-volumes.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "start without",
+    "object": "PVC",
+    "sentence": "But this does not resolve the conflict because without the right PVC, the Pod cannot start.",
+    "source_file": "k8s_storage_ephemeral-volumes.txt"
+  },
+  {
+    "subject": "PV",
+    "relation": "provision for",
+    "object": "PVC",
+    "sentence": "If a PV was dynamically provisioned for a new PVC, the loop will always bind that PV to the PVC.",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "PVC",
+    "relation": "to",
+    "object": "PV",
+    "sentence": "A PVC to PV binding is a one-to-one mapping, using a ClaimRef which is a bi-directional binding between the PersistentVolume and the PersistentVolumeClaim.",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "PV",
+    "relation": "bind to",
+    "object": "PVC",
+    "sentence": "PV removal is postponed until the PV is no longer bound to a PVC.",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "PVC",
+    "relation": "bind to",
+    "object": "PV",
+    "sentence": "However, if you want a PVC to bind to a specific PV, you need to pre-bind them.",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "FlexVolume",
+    "relation": "resize on",
+    "object": "restart",
+    "sentence": "The FlexVolume can be resized on Pod restart.",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "Block",
+    "relation": "in",
+    "object": "Pod",
+    "sentence": "See Raw Block Volume Support for an example on how to use a volume with volumeMode: Block in a Pod.",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "PersistentVolume",
+    "relation": "create as",
+    "object": "ReadOnlyMany",
+    "sentence": "For example, even if a PersistentVolume is created as ReadOnlyMany, it is no guarantee that it will be read-only.",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "PVs",
+    "relation": "bind to",
+    "object": "PVC",
+    "sentence": "Only PVs of the requested class, ones with the same storageClassName as the PVC, can be bound to the PVC.",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "PVC",
+    "relation": "bind with",
+    "object": "PVs",
+    "sentence": "A PVC with its storageClassName set equal to \"\" is always interpreted to be requesting a PV with no class, so it can only be bound to PVs with no class (no annotation or one set equal to \"\" ).",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "reference",
+    "object": "PVC",
+    "sentence": "Unused with status \"False\" (reason PodUsingPVC ) : At least one non-terminal Pod currently references this PVC.",
+    "source_file": "k8s_storage_persistent-volumes.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "stick at",
+    "object": "ContainerCreating",
+    "sentence": "Creating a Windows Pod with RunAsUser in it's SecurityContext will result in the Pod being stuck at ContainerCreating forever.",
+    "source_file": "k8s_storage_projected-volumes.txt"
+  },
+  {
+    "subject": "StorageClass",
+    "relation": "for",
+    "object": "NFS",
+    "sentence": "You need to use an external provisioner to create a StorageClass for NFS.",
+    "source_file": "k8s_storage_storage-classes.txt"
+  },
+  {
+    "subject": "ReferenceGrant",
+    "relation": "from",
+    "object": "API",
+    "sentence": "This means that you must extend your Kubernetes cluster with at least ReferenceGrant from the Gateway API before you can use this mechanism.",
+    "source_file": "k8s_storage_volume-populators-and-data-sources.txt"
+  },
+  {
+    "subject": "StorageClass",
+    "relation": "of",
+    "object": "PersistentVolumeClaim",
+    "sentence": "These attributes may differ among snapshots taken from the same volume on the storage system and therefore cannot be expressed by using the same StorageClass of a PersistentVolumeClaim .",
+    "source_file": "k8s_storage_volume-snapshots.txt"
+  },
+  {
+    "subject": "CSR",
+    "relation": "be in",
+    "object": "API",
+    "sentence": "The CSR should now be visible in the API in a Pending state.",
+    "source_file": "k8s_tls_managing-tls-in-a-cluster.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "be",
+    "object": "block",
+    "sentence": "Pods A Pod is the basic building block of Kubernetes\u2013the smallest and simplest unit in the Kubernetes object model that you create or deploy.",
+    "source_file": "k8s_windows_intro.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "perform",
+    "object": "job",
+    "sentence": "Each pod in a DaemonSet performs a job similar to a system daemon on a classic Unix / POSIX server.",
+    "source_file": "k8s_workloads__index.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "in",
+    "object": "DaemonSet",
+    "sentence": "Each pod in a DaemonSet performs a job similar to a system daemon on a classic Unix / POSIX server.",
+    "source_file": "k8s_workloads__index.txt"
+  },
+  {
+    "subject": "VPA",
+    "relation": "come by",
+    "object": "HPA",
+    "sentence": "Unlike the HPA, the VPA doesn't come with Kubernetes by default, but is a an add-on that you or a cluster administrator may need to deploy before you can use it.",
+    "source_file": "k8s_workloads_autoscaling.txt"
+  },
+  {
+    "subject": "API",
+    "relation": "for",
+    "object": "Pod",
+    "sentence": "For per-pod resource metrics (like CPU), the controller fetches the metrics from the resource metrics API for each Pod targeted by the HorizontalPodAutoscaler.",
+    "source_file": "k8s_workloads_autoscaling_horizontal-pod-autoscale.txt"
+  },
+  {
+    "subject": "HorizontalPodAutoscaler",
+    "relation": "support",
+    "object": "API",
+    "sentence": "The HorizontalPodAutoscaler currently supports the metrics.k8s.io/v1beta1 API for resource metrics.",
+    "source_file": "k8s_workloads_autoscaling_horizontal-pod-autoscale.txt"
+  },
+  {
+    "subject": "VPA",
+    "relation": "instal in",
+    "object": "HorizontalPodAutoscaler",
+    "sentence": "Unlike HorizontalPodAutoscaler, which is part of the core Kubernetes API, VPA must be installed separately in your cluster.",
+    "source_file": "k8s_workloads_autoscaling_vertical-pod-autoscale.txt"
+  },
+  {
+    "subject": "Recommender",
+    "relation": "analyze for",
+    "object": "Pod",
+    "sentence": "The Recommender analyzes both current and historical resource usage data (CPU and memory) for each Pod targeted by the VerticalPodAutoscaler.",
+    "source_file": "k8s_workloads_autoscaling_vertical-pod-autoscale.txt"
+  },
+  {
+    "subject": "VPA",
+    "relation": "manage by",
+    "object": "CPU",
+    "sentence": "If not specified, VPA manages both CPU and memory by default.",
+    "source_file": "k8s_workloads_autoscaling_vertical-pod-autoscale.txt"
+  },
+  {
+    "subject": "Sunday",
+    "relation": "to",
+    "object": "Saturday",
+    "sentence": "The value of that field follows the Cron syntax: ``` \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 minute (0 - 59) \u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 hour (0 - 23) \u2502 \u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 day of the month (1 - 31) \u2502 \u2502 \u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 month (1 - 12) \u2502 \u2502 \u2502 \u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 day of the week (0 - 6) (Sunday to Saturday) \u2502 \u2502 \u2502 \u2502 \u2502                                   OR sun, mon, tue, wed, thu, fri, sat \u2502 \u2502 \u2502 \u2502 \u2502 \u2502 \u2502 \u2502 \u2502 \u2502 * * * * * ``` For example, 0 3 * * 1 means this task is scheduled to run weekly on a Monday at 3 AM.",
+    "source_file": "k8s_workloads_controllers_cron-jobs.txt"
+  },
+  {
+    "subject": "DNS",
+    "relation": "create",
+    "object": "service",
+    "sentence": "DNS : Create a headless service with the same pod selector, and then discover DaemonSets using the endpoints resource or retrieve multiple A records from DNS.",
+    "source_file": "k8s_workloads_controllers_daemonset.txt"
+  },
+  {
+    "subject": "Deployment",
+    "relation": "create",
+    "object": "ReplicaSet",
+    "sentence": "The Deployment creates a ReplicaSet that creates three replicated Pods, indicated by the .spec.replicas field.",
+    "source_file": "k8s_workloads_controllers_deployment.txt"
+  },
+  {
+    "subject": "PodTemplate",
+    "relation": "of",
+    "object": "ReplicaSet",
+    "sentence": "It is generated by hashing the PodTemplate of the ReplicaSet and using the resulting hash as the label value that is added to the ReplicaSet selector, Pod template labels, and in any existing Pods that the ReplicaSet might have.",
+    "source_file": "k8s_workloads_controllers_deployment.txt"
+  },
+  {
+    "subject": "Deployment",
+    "relation": "create as",
+    "object": "ReplicaSet",
+    "sentence": "If you update a Deployment while an existing rollout is in progress, the Deployment creates a new ReplicaSet as per the update and start scaling that up, and rolls over the ReplicaSet that it was scaling up previously -- it will add it to its list of old ReplicaSets and start scaling it down.",
+    "source_file": "k8s_workloads_controllers_deployment.txt"
+  },
+  {
+    "subject": "Deployment",
+    "relation": "scale",
+    "object": "ReplicaSet",
+    "sentence": "The Deployment is scaling up its newest ReplicaSet.",
+    "source_file": "k8s_workloads_controllers_deployment.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "consider",
+    "object": "available",
+    "sentence": "This defaults to 0 (the Pod will be considered available as soon as it is ready).",
+    "source_file": "k8s_workloads_controllers_deployment.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "consider",
+    "object": "ready",
+    "sentence": "To learn more about when a Pod is considered ready, see Container Probes .",
+    "source_file": "k8s_workloads_controllers_deployment.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "from",
+    "object": "Job",
+    "sentence": "when any Pod from the Job terminates with success, no new Pods are created.",
+    "source_file": "k8s_workloads_controllers_job.txt"
+  },
+  {
+    "subject": "NonIndexed",
+    "relation": "consider",
+    "object": "complete",
+    "sentence": "NonIndexed (default): the Job is considered complete when there have been .spec.completions successfully completed Pods.",
+    "source_file": "k8s_workloads_controllers_job.txt"
+  },
+  {
+    "subject": "Job",
+    "relation": "consider",
+    "object": "complete",
+    "sentence": "NonIndexed (default): the Job is considered complete when there have been .spec.completions successfully completed Pods.",
+    "source_file": "k8s_workloads_controllers_job.txt"
+  },
+  {
+    "subject": "job",
+    "relation": "mark as",
+    "object": "Failed",
+    "sentence": "Possible values are: FailJob : use to indicate that the Pod's job should be marked as Failed and all running Pods should be terminated.",
+    "source_file": "k8s_workloads_controllers_job.txt"
+  },
+  {
+    "subject": "Job",
+    "relation": "associate with",
+    "object": "Service",
+    "sentence": "When the Job is associated with a headless Service , you can enable the Pods within a Job to communicate with each other to collaborate in a computation.",
+    "source_file": "k8s_workloads_controllers_job.txt"
+  },
+  {
+    "subject": "Job",
+    "relation": "have",
+    "object": "uid",
+    "sentence": "The new Job itself will have a different uid from a8f3d00d-c6d2-11e5-9f87-42010af00002 .",
+    "source_file": "k8s_workloads_controllers_job.txt"
+  },
+  {
+    "subject": "Job",
+    "relation": "as",
+    "object": "MPI",
+    "sentence": "Use cases for elastic Indexed Jobs include batch workloads which require scaling an indexed Job, such as MPI, Horovod, Ray, and PyTorch training jobs.",
+    "source_file": "k8s_workloads_controllers_job.txt"
+  },
+  {
+    "subject": "ReplicaSet",
+    "relation": "create",
+    "object": "delete",
+    "sentence": "The ReplicaSet will create/delete its Pods to match this number.",
+    "source_file": "k8s_workloads_controllers_replicaset.txt"
+  },
+  {
+    "subject": "HPA",
+    "relation": "target",
+    "object": "ReplicaSet",
+    "sentence": "Here is an example HPA targeting the ReplicaSet we created in the previous example.",
+    "source_file": "k8s_workloads_controllers_replicaset.txt"
+  },
+  {
+    "subject": "StatefulSet",
+    "relation": "use",
+    "object": "Service",
+    "sentence": "A StatefulSet can use a Headless Service to control the domain of its Pods.",
+    "source_file": "k8s_workloads_controllers_statefulset.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "receive with",
+    "object": "PersistentVolume",
+    "sentence": "In the nginx example above, each Pod receives a single PersistentVolume with a StorageClass of my-storage-class and 1 GiB of provisioned storage.",
+    "source_file": "k8s_workloads_controllers_statefulset.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "receive with",
+    "object": "StorageClass",
+    "sentence": "In the nginx example above, each Pod receives a single PersistentVolume with a StorageClass of my-storage-class and 1 GiB of provisioned storage.",
+    "source_file": "k8s_workloads_controllers_statefulset.txt"
+  },
+  {
+    "subject": "StatefulSet",
+    "relation": "specify",
+    "object": "pod",
+    "sentence": "The StatefulSet should not specify a pod.Spec.",
+    "source_file": "k8s_workloads_controllers_statefulset.txt"
+  },
+  {
+    "subject": "Delete",
+    "relation": "delete for",
+    "object": "Pod",
+    "sentence": "Delete : The PVCs created from the StatefulSet volumeClaimTemplate are deleted for each Pod affected by the policy.",
+    "source_file": "k8s_workloads_controllers_statefulset.txt"
+  },
+  {
+    "subject": "StatefulSet",
+    "relation": "retain For",
+    "object": "PVC",
+    "sentence": "For example, if a Pod associated with a StatefulSet fails due to node failure, and the control plane creates a replacement Pod, the StatefulSet retains the existing PVC.",
+    "source_file": "k8s_workloads_controllers_statefulset.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "move to",
+    "object": "PodGroup",
+    "sentence": "Once set, a Pod cannot move to a different PodGroup.",
+    "source_file": "k8s_workloads_podgroup-api_lifecycle.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "without",
+    "object": "PDB",
+    "sentence": "Another, unrelated pod without a PDB, called pod-x , is also shown.",
+    "source_file": "k8s_workloads_pods_disruptions.txt"
+  },
+  {
+    "subject": "Note",
+    "relation": "for",
+    "object": "pod",
+    "sentence": "(Note: for a StatefulSet, pod-a , which would be called something like pod-0 , would need to terminate completely before its replacement, which is also called pod-0 but has a different UID, could be created.",
+    "source_file": "k8s_workloads_pods_disruptions.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "grant",
+    "object": "term",
+    "sentence": "NAMESPACE               NAME               READY   STATUS             RESTARTS   AGE alessandras-namespace   alessandras-pod    0/1     CrashLoopBackOff   200        2d9h A Pod is granted a term to terminate gracefully, which defaults to 30 seconds.",
+    "source_file": "k8s_workloads_pods_pod-lifecycle.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "keep",
+    "object": "UID",
+    "sentence": "The pod keeps its UID, sandbox, IP, and volumes.",
+    "source_file": "k8s_workloads_pods_pod-lifecycle.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "show as",
+    "object": "Terminating",
+    "sentence": "If you use kubectl describe to check the Pod you're deleting, that Pod shows up as \"Terminating\".",
+    "source_file": "k8s_workloads_pods_pod-lifecycle.txt"
+  },
+  {
+    "subject": "Pod",
+    "relation": "be In",
+    "object": "BestEffort",
+    "sentence": "In other words, a Pod is BestEffort only if none of the Containers in the Pod have a memory limit or a memory request, and none of the Containers in the Pod have a CPU limit or a CPU request, and the Pod does not have any Pod-level memory or CPU limits or requests.",
+    "source_file": "k8s_workloads_pods_pod-qos.txt"
+  },
+  {
+    "subject": "QoS",
+    "relation": "require with",
+    "object": "Linux",
+    "sentence": "System requirements Memory QoS requires Linux with cgroup v2.",
+    "source_file": "k8s_workloads_pods_pod-qos.txt"
+  },
+  {
+    "subject": "HTTP/2",
+    "relation": "over",
+    "object": "TCP",
+    "sentence": "When protocol is set to HTTP2 , the kubelet uses h2c (HTTP/2 over plain TCP) instead of HTTP/1.1.",
+    "source_file": "k8s_workloads_pods_probes.txt"
+  },
+  {
+    "subject": "HTTP2",
+    "relation": "require",
+    "object": "HTTP",
+    "sentence": "Setting protocol: HTTP2 requires scheme: HTTP (the default); the API server rejects the combination of protocol: HTTP2 with scheme: HTTPS .",
+    "source_file": "k8s_workloads_pods_probes.txt"
+  },
+  {
+    "subject": "PodGroup",
+    "relation": "specify",
+    "object": "CompositePodGroup",
+    "sentence": "When the CompositePodGroup feature gate is enabled, a PodGroup may also specify a parent CompositePodGroup .",
+    "source_file": "k8s_workloads_pods_scheduling-group.txt"
+  },
+  {
+    "subject": "PodGroup",
+    "relation": "specify via",
+    "object": "CompositePodGroup",
+    "sentence": "Similarly, if the referenced PodGroup specifies a parent CompositePodGroup (via spec.parentCompositePodGroupName ) that has not been created yet, scheduling does not start and the Pod remains pending until the entire group hierarchy exists in the cluster.",
+    "source_file": "k8s_workloads_pods_scheduling-group.txt"
+  },
+  {
+    "subject": "pod",
+    "relation": "from",
+    "object": "PodGroup",
+    "sentence": "Single The Single mode instructs the scheduler to treat all Pods in the group as separate entities, allowing independent disruption of a single pod from a PodGroup.",
+    "source_file": "k8s_workloads_workload-api_disruption-and-priority.txt"
+  }
+]

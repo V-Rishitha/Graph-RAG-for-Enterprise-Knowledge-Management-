@@ -1,0 +1,12 @@
+<string>
+SBOM
+Software Bill Of Materials (SBOM) files are critical assets used for transparency, providing a clear inventory of all the components
+used in Apache Airflow (name, version, supplier and transitive dependencies). They are an exhaustive representation
+of the software dependencies.
+The general use case for such files is to help assess and manage risks. For instance a quick lookup against your SBOM files can help identify if a CVE (Common Vulnerabilities and Exposures) in a
+library is affecting you.
+By default, Apache Airflow SBOM files are generated for Airflow core with all providers. In the near future we aim at generating SBOM files per provider and also provide them for docker standard images.
+Each Airflow version has its own SBOM files, one for each supported python version.
+You can find them
+here
+.

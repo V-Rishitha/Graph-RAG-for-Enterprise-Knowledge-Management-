@@ -1,0 +1,47 @@
+title: Tutorials
+main_menu: true
+no_list: true
+weight: 60
+content_type: concept
+This section of the Kubernetes documentation contains tutorials.
+A tutorial shows how to accomplish a goal that is larger than a single
+task
+. Typically a tutorial has several sections,
+each of which has a sequence of steps.
+Before walking through each tutorial, you may want to bookmark the
+Standardized Glossary
+page for later references.
+Basics
+Kubernetes Basics
+is an in-depth interactive tutorial that helps you understand the Kubernetes system and try out some basic Kubernetes features.
+Introduction to Kubernetes (edX)
+Hello Minikube
+Configuration
+Configuring Redis Using a ConfigMap
+Authoring Pods
+Adopting Sidecar Containers
+Stateless Applications
+Exposing an External IP Address to Access an Application in a Cluster
+Example: Deploying PHP Guestbook application with Redis
+Stateful Applications
+StatefulSet Basics
+Example: WordPress and MySQL with Persistent Volumes
+Example: Deploying Cassandra with Stateful Sets
+Running ZooKeeper, A CP Distributed System
+Services
+Connecting Applications with Services
+Using Source IP
+Security
+Apply Pod Security Standards at Cluster level
+Apply Pod Security Standards at Namespace level
+Restrict a Container's Access to Resources with AppArmor
+Seccomp
+Cluster Management
+Running Kubelet in Standalone Mode
+Configuring Swap Memory on Kubernetes Nodes
+Install Drivers and Allocate Devices with DRA
+Explore Validating and Mutating Admission Policies
+{{% heading "whatsnext" %}}
+If you would like to write a tutorial, see
+Content Page Types
+for information about the tutorial page type.

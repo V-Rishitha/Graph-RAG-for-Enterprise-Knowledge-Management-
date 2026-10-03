@@ -1,0 +1,5 @@
+<string>
+Privacy Notice
+The website follows the
+Privacy Policy of the Apache Software Foundation
+.

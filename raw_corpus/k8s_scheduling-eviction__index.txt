@@ -1,0 +1,36 @@
+title: "Scheduling, Preemption and Eviction"
+weight: 95
+content_type: concept
+no_list: true
+In Kubernetes, scheduling refers to making sure that {{
+}}
+are matched to {{
+}} so that the
+{{
+}} can run them. Preemption
+is the process of terminating Pods with lower {{
+}}
+so that Pods with higher Priority can schedule on Nodes. Eviction is the process
+of terminating one or more Pods on Nodes.
+Scheduling
+Kubernetes Scheduler
+Assigning Pods to Nodes
+Pod Overhead
+Pod Topology Spread Constraints
+Taints and Tolerations
+Scheduling Framework
+Scheduler Performance Tuning
+Resource Bin Packing for Extended Resources
+Pod Scheduling Readiness
+PodGroup Scheduling
+Gang Scheduling
+Topology-aware Scheduling
+Workload-aware preemption
+Descheduler
+Node Declared Features
+Pod Disruption
+{{
+}}
+Pod Priority and Preemption
+Node-pressure Eviction
+API-initiated Eviction

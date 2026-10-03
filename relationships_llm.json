@@ -1,0 +1,20 @@
+[
+  {
+    "subject": "Airflow",
+    "relation": "uses",
+    "object": "Flask",
+    "source_file": "af_administration-and-deployment_plugins.txt"
+  },
+  {
+    "subject": "Flask",
+    "relation": "created by",
+    "object": "Airflow",
+    "source_file": "af_administration-and-deployment_plugins.txt"
+  },
+  {
+    "subject": "Airflow",
+    "relation": "schedules",
+    "object": "Dag",
+    "source_file": "af_authoring-and-scheduling_index.txt"
+  }
+]

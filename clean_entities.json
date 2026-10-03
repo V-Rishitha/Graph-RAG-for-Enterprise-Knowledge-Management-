@@ -1,0 +1,9867 @@
+[
+  {
+    "entity": "Pod",
+    "frequency": 4695,
+    "appears_in_files": 331
+  },
+  {
+    "entity": "Dag",
+    "frequency": 2099,
+    "appears_in_files": 101
+  },
+  {
+    "entity": "API",
+    "frequency": 1582,
+    "appears_in_files": 275
+  },
+  {
+    "entity": "Airflow",
+    "frequency": 1051,
+    "appears_in_files": 122
+  },
+  {
+    "entity": "Service",
+    "frequency": 838,
+    "appears_in_files": 159
+  },
+  {
+    "entity": "CPU",
+    "frequency": 788,
+    "appears_in_files": 88
+  },
+  {
+    "entity": "ConfigMap",
+    "frequency": 716,
+    "appears_in_files": 55
+  },
+  {
+    "entity": "StatefulSet",
+    "frequency": 668,
+    "appears_in_files": 37
+  },
+  {
+    "entity": "Deployment",
+    "frequency": 628,
+    "appears_in_files": 134
+  },
+  {
+    "entity": "Job",
+    "frequency": 565,
+    "appears_in_files": 56
+  },
+  {
+    "entity": "Secret",
+    "frequency": 450,
+    "appears_in_files": 64
+  },
+  {
+    "entity": "PodGroup",
+    "frequency": 406,
+    "appears_in_files": 19
+  },
+  {
+    "entity": "API server",
+    "frequency": 404,
+    "appears_in_files": 127
+  },
+  {
+    "entity": "IP",
+    "frequency": 393,
+    "appears_in_files": 79
+  },
+  {
+    "entity": "DNS",
+    "frequency": 391,
+    "appears_in_files": 84
+  },
+  {
+    "entity": "DRA",
+    "frequency": 358,
+    "appears_in_files": 22
+  },
+  {
+    "entity": "PersistentVolume",
+    "frequency": 355,
+    "appears_in_files": 29
+  },
+  {
+    "entity": "DaemonSet",
+    "frequency": 346,
+    "appears_in_files": 48
+  },
+  {
+    "entity": "UI",
+    "frequency": 343,
+    "appears_in_files": 67
+  },
+  {
+    "entity": "Linux",
+    "frequency": 343,
+    "appears_in_files": 89
+  },
+  {
+    "entity": "ReplicaSet",
+    "frequency": 317,
+    "appears_in_files": 34
+  },
+  {
+    "entity": "Kubernetes API",
+    "frequency": 272,
+    "appears_in_files": 88
+  },
+  {
+    "entity": "ResourceClaim",
+    "frequency": 223,
+    "appears_in_files": 18
+  },
+  {
+    "entity": "Docker",
+    "frequency": 214,
+    "appears_in_files": 47
+  },
+  {
+    "entity": "StorageClass",
+    "frequency": 209,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "JSON",
+    "frequency": 204,
+    "appears_in_files": 76
+  },
+  {
+    "entity": "PVC",
+    "frequency": 194,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "CSI",
+    "frequency": 191,
+    "appears_in_files": 20
+  },
+  {
+    "entity": "XCom",
+    "frequency": 190,
+    "appears_in_files": 29
+  },
+  {
+    "entity": "CLI",
+    "frequency": 183,
+    "appears_in_files": 52
+  },
+  {
+    "entity": "Triggerer",
+    "frequency": 181,
+    "appears_in_files": 24
+  },
+  {
+    "entity": "ReplicationController",
+    "frequency": 173,
+    "appears_in_files": 18
+  },
+  {
+    "entity": "ServiceAccount",
+    "frequency": 170,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "Kubernetes cluster",
+    "frequency": 165,
+    "appears_in_files": 106
+  },
+  {
+    "entity": "Delete",
+    "frequency": 145,
+    "appears_in_files": 64
+  },
+  {
+    "entity": "Python",
+    "frequency": 142,
+    "appears_in_files": 50
+  },
+  {
+    "entity": "UTC",
+    "frequency": 134,
+    "appears_in_files": 20
+  },
+  {
+    "entity": "KMS",
+    "frequency": 130,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "LimitRange",
+    "frequency": 129,
+    "appears_in_files": 15
+  },
+  {
+    "entity": "Dag run",
+    "frequency": 127,
+    "appears_in_files": 30
+  },
+  {
+    "entity": "PersistentVolumeClaim",
+    "frequency": 124,
+    "appears_in_files": 30
+  },
+  {
+    "entity": "AppArmor",
+    "frequency": 124,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "EndpointSlice",
+    "frequency": 123,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "LoadBalancer",
+    "frequency": 117,
+    "appears_in_files": 29
+  },
+  {
+    "entity": "ResourceQuota",
+    "frequency": 109,
+    "appears_in_files": 16
+  },
+  {
+    "entity": "Topology",
+    "frequency": 102,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "CronJob",
+    "frequency": 102,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "Dag file",
+    "frequency": 101,
+    "appears_in_files": 30
+  },
+  {
+    "entity": "JWT",
+    "frequency": 99,
+    "appears_in_files": 15
+  },
+  {
+    "entity": "NodePort",
+    "frequency": 97,
+    "appears_in_files": 23
+  },
+  {
+    "entity": "HTTP",
+    "frequency": 96,
+    "appears_in_files": 33
+  },
+  {
+    "entity": "CSR",
+    "frequency": 95,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "HPA",
+    "frequency": 95,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Ingress",
+    "frequency": 94,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "GPU",
+    "frequency": 92,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "Dag author",
+    "frequency": 91,
+    "appears_in_files": 16
+  },
+  {
+    "entity": "NetworkPolicy",
+    "frequency": 91,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Pod:\nshell\nkubectl",
+    "frequency": 90,
+    "appears_in_files": 33
+  },
+  {
+    "entity": "CRD",
+    "frequency": 88,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "Pod\nmetadata",
+    "frequency": 84,
+    "appears_in_files": 44
+  },
+  {
+    "entity": "CustomResourceDefinition",
+    "frequency": 84,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "CRI",
+    "frequency": 83,
+    "appears_in_files": 30
+  },
+  {
+    "entity": "NUMA",
+    "frequency": 82,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "SELinux",
+    "frequency": 81,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "Airflow UI",
+    "frequency": 80,
+    "appears_in_files": 32
+  },
+  {
+    "entity": "Restart",
+    "frequency": 77,
+    "appears_in_files": 37
+  },
+  {
+    "entity": "RBAC",
+    "frequency": 77,
+    "appears_in_files": 35
+  },
+  {
+    "entity": "BaseOperator",
+    "frequency": 76,
+    "appears_in_files": 16
+  },
+  {
+    "entity": "TCP",
+    "frequency": 76,
+    "appears_in_files": 24
+  },
+  {
+    "entity": "Validate",
+    "frequency": 75,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "RuntimeClass",
+    "frequency": 75,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Learn",
+    "frequency": 74,
+    "appears_in_files": 49
+  },
+  {
+    "entity": "Apache Airflow",
+    "frequency": 73,
+    "appears_in_files": 24
+  },
+  {
+    "entity": "CNI",
+    "frequency": 69,
+    "appears_in_files": 16
+  },
+  {
+    "entity": "Dag bundle",
+    "frequency": 68,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "SDK",
+    "frequency": 68,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "TLS",
+    "frequency": 68,
+    "appears_in_files": 23
+  },
+  {
+    "entity": "Pod Security Standard",
+    "frequency": 67,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "CronTab",
+    "frequency": 66,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "ClusterIP",
+    "frequency": 66,
+    "appears_in_files": 19
+  },
+  {
+    "entity": "ResourceClaimTemplate",
+    "frequency": 66,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Job controller",
+    "frequency": 65,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Dag File Processor",
+    "frequency": 64,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Pod template",
+    "frequency": 64,
+    "appears_in_files": 25
+  },
+  {
+    "entity": "ResourceSlice",
+    "frequency": 64,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "VPA",
+    "frequency": 63,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "QoS",
+    "frequency": 62,
+    "appears_in_files": 15
+  },
+  {
+    "entity": "Dashboard",
+    "frequency": 61,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "PDB",
+    "frequency": 61,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "PV",
+    "frequency": 61,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Pod spec",
+    "frequency": 61,
+    "appears_in_files": 35
+  },
+  {
+    "entity": "Kubernetes API server",
+    "frequency": 60,
+    "appears_in_files": 33
+  },
+  {
+    "entity": "PID",
+    "frequency": 59,
+    "appears_in_files": 15
+  },
+  {
+    "entity": "DeadlineReference",
+    "frequency": 58,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Topology Manager",
+    "frequency": 58,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "ZooKeeper",
+    "frequency": 58,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Deployment Manager",
+    "frequency": 57,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "BestEffort",
+    "frequency": 57,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "URL",
+    "frequency": 56,
+    "appears_in_files": 27
+  },
+  {
+    "entity": "LocalExecutor",
+    "frequency": 56,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "FlowSchema",
+    "frequency": 55,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DeviceClass",
+    "frequency": 55,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "CSI driver",
+    "frequency": 55,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "HorizontalPodAutoscaler",
+    "frequency": 55,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "DagRun",
+    "frequency": 54,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "IP address",
+    "frequency": 54,
+    "appears_in_files": 28
+  },
+  {
+    "entity": "CEL",
+    "frequency": 54,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "CPU request",
+    "frequency": 53,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "CPU limit",
+    "frequency": 51,
+    "appears_in_files": 15
+  },
+  {
+    "entity": "TTL",
+    "frequency": 50,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "Kubernetes project",
+    "frequency": 50,
+    "appears_in_files": 35
+  },
+  {
+    "entity": "MySQL",
+    "frequency": 49,
+    "appears_in_files": 19
+  },
+  {
+    "entity": "Docker Engine",
+    "frequency": 49,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "IPs",
+    "frequency": 49,
+    "appears_in_files": 21
+  },
+  {
+    "entity": "CompositePodGroup",
+    "frequency": 49,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "Download",
+    "frequency": 48,
+    "appears_in_files": 16
+  },
+  {
+    "entity": "IPv6",
+    "frequency": 48,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "IPv4",
+    "frequency": 48,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "Windows node",
+    "frequency": 48,
+    "appears_in_files": 21
+  },
+  {
+    "entity": "NFS",
+    "frequency": 47,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "REST API",
+    "frequency": 46,
+    "appears_in_files": 22
+  },
+  {
+    "entity": "TaskFlow",
+    "frequency": 46,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "Readiness",
+    "frequency": 46,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "Dag processor",
+    "frequency": 45,
+    "appears_in_files": 20
+  },
+  {
+    "entity": "Jinja",
+    "frequency": 45,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "TaskGroup",
+    "frequency": 45,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "WordPress",
+    "frequency": 44,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "KubeletConfiguration",
+    "frequency": 44,
+    "appears_in_files": 18
+  },
+  {
+    "entity": "Lease",
+    "frequency": 44,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "SSH",
+    "frequency": 43,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "PyPI",
+    "frequency": 43,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Pod Security Admission",
+    "frequency": 43,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "MiB",
+    "frequency": 42,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "S3",
+    "frequency": 41,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "term",
+    "frequency": 41,
+    "appears_in_files": 25
+  },
+  {
+    "entity": "PodSpec",
+    "frequency": 41,
+    "appears_in_files": 15
+  },
+  {
+    "entity": "IngressClass",
+    "frequency": 41,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CeleryExecutor",
+    "frequency": 40,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "PowerShell",
+    "frequency": 40,
+    "appears_in_files": 16
+  },
+  {
+    "entity": "extra",
+    "frequency": 39,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "Java",
+    "frequency": 37,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Node Problem Detector",
+    "frequency": 37,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Execution API",
+    "frequency": 36,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "GA",
+    "frequency": 36,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "ClusterRole",
+    "frequency": 36,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "PodDisruptionBudget",
+    "frequency": 36,
+    "appears_in_files": 15
+  },
+  {
+    "entity": "Gateway",
+    "frequency": 35,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "UID",
+    "frequency": 34,
+    "appears_in_files": 15
+  },
+  {
+    "entity": "Linux node",
+    "frequency": 34,
+    "appears_in_files": 22
+  },
+  {
+    "entity": "Windows container",
+    "frequency": 34,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "TaskInstance",
+    "frequency": 33,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "BashOperator",
+    "frequency": 33,
+    "appears_in_files": 18
+  },
+  {
+    "entity": "Docker Compose",
+    "frequency": 33,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "TaskFlow API",
+    "frequency": 32,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "GID",
+    "frequency": 32,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "License",
+    "frequency": 32,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Memory Manager",
+    "frequency": 32,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "DRA driver",
+    "frequency": 32,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "React",
+    "frequency": 31,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "DeadlineAlert",
+    "frequency": 31,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "MODIFY",
+    "frequency": 31,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "OpenShift",
+    "frequency": 31,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Notice",
+    "frequency": 31,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "Deployment\nmetadata",
+    "frequency": 31,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "NUMA node",
+    "frequency": 31,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Pod specification",
+    "frequency": 31,
+    "appears_in_files": 22
+  },
+  {
+    "entity": "Pod Security",
+    "frequency": 31,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "NoExecute",
+    "frequency": 31,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Cluster Autoscaler",
+    "frequency": 31,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Windows Pod",
+    "frequency": 31,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "FlexVolume",
+    "frequency": 31,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "RollupMapper",
+    "frequency": 30,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Sequence",
+    "frequency": 30,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "Cassandra",
+    "frequency": 30,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Metrics API",
+    "frequency": 30,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Task Context",
+    "frequency": 29,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Pod's container",
+    "frequency": 29,
+    "appears_in_files": 18
+  },
+  {
+    "entity": "SQLAlchemy",
+    "frequency": 28,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "GitHub",
+    "frequency": 28,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "SQL",
+    "frequency": 28,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "PythonOperator",
+    "frequency": 28,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "Kubernetes Service",
+    "frequency": 28,
+    "appears_in_files": 18
+  },
+  {
+    "entity": "CPU resource",
+    "frequency": 28,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "NoSchedule",
+    "frequency": 28,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "RAM",
+    "frequency": 28,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "ContainerCreating",
+    "frequency": 28,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Kubernetes apiserver",
+    "frequency": 28,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "EmptyOperator",
+    "frequency": 27,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Cilium",
+    "frequency": 27,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ServiceCIDR",
+    "frequency": 27,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "StatefulSet controller",
+    "frequency": 27,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Refer",
+    "frequency": 26,
+    "appears_in_files": 22
+  },
+  {
+    "entity": "HostProcess container",
+    "frequency": 26,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "QoS class",
+    "frequency": 26,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "DaemonSet Pod",
+    "frequency": 26,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "ControllerRevision",
+    "frequency": 26,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "VolumeSnapshot",
+    "frequency": 26,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Git",
+    "frequency": 25,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Helm Chart",
+    "frequency": 25,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "ID",
+    "frequency": 25,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "Airflow Variable",
+    "frequency": 25,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "Homebrew",
+    "frequency": 25,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Kubernetes Pod",
+    "frequency": 25,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "Running",
+    "frequency": 25,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "Service\nmetadata",
+    "frequency": 25,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "1 CPU",
+    "frequency": 25,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "PriorityClass",
+    "frequency": 25,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Kustomize",
+    "frequency": 25,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Windows Server",
+    "frequency": 25,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Pod failure policy",
+    "frequency": 25,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ExternalName",
+    "frequency": 25,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CI",
+    "frequency": 24,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "OpenTelemetry",
+    "frequency": 24,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CPUManager",
+    "frequency": 24,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "FQDN",
+    "frequency": 24,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "DNS Service",
+    "frequency": 24,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "CNI plugin",
+    "frequency": 24,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "PodTemplate",
+    "frequency": 24,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Helm",
+    "frequency": 23,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "Slack",
+    "frequency": 23,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Recreate",
+    "frequency": 23,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "CVE",
+    "frequency": 23,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "RollingUpdate",
+    "frequency": 23,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Kubernetes control plane",
+    "frequency": 23,
+    "appears_in_files": 20
+  },
+  {
+    "entity": "Node object",
+    "frequency": 23,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "HostProcess",
+    "frequency": 23,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "API object",
+    "frequency": 23,
+    "appears_in_files": 20
+  },
+  {
+    "entity": "Job object",
+    "frequency": 23,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Celery",
+    "frequency": 22,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "Each entry",
+    "frequency": 22,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "SQLite",
+    "frequency": 22,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "EncryptionConfiguration",
+    "frequency": 22,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Workload API",
+    "frequency": 22,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "DagBag",
+    "frequency": 21,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Task SDK",
+    "frequency": 21,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "KubernetesExecutor",
+    "frequency": 21,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "\"UTC",
+    "frequency": 21,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "API reference",
+    "frequency": 21,
+    "appears_in_files": 17
+  },
+  {
+    "entity": "DEK",
+    "frequency": 21,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dynamic Resource Allocation",
+    "frequency": 21,
+    "appears_in_files": 14
+  },
+  {
+    "entity": "NAT",
+    "frequency": 21,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "ValidatingAdmissionPolicy",
+    "frequency": 21,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Logging",
+    "frequency": 20,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "PostgreSQL",
+    "frequency": 20,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Auth",
+    "frequency": 20,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "HTML",
+    "frequency": 20,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Configure",
+    "frequency": 20,
+    "appears_in_files": 19
+  },
+  {
+    "entity": "GMSA",
+    "frequency": 20,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "FAB",
+    "frequency": 19,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "DB",
+    "frequency": 19,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "UDP",
+    "frequency": 19,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "BaseTrigger",
+    "frequency": 19,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "IDs",
+    "frequency": 19,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "MAC",
+    "frequency": 19,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Licensor",
+    "frequency": 19,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Calico",
+    "frequency": 19,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod Disruption Budget",
+    "frequency": 19,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Deployment controller",
+    "frequency": 19,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Fairness",
+    "frequency": 19,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "YAML file",
+    "frequency": 19,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "NodePort Service",
+    "frequency": 19,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Multi-Team",
+    "frequency": 18,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Multi-Team mode",
+    "frequency": 18,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "ObjectStoragePath",
+    "frequency": 18,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Docker Desktop",
+    "frequency": 18,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "DNS name",
+    "frequency": 18,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "Kubernetes resource",
+    "frequency": 18,
+    "appears_in_files": 16
+  },
+  {
+    "entity": "Kubernetes component",
+    "frequency": 18,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "ConfigMap\nmetadata",
+    "frequency": 18,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "CRI-O",
+    "frequency": 18,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "2 CPU",
+    "frequency": 18,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Kubernetes v1.23",
+    "frequency": 18,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Konnectivity",
+    "frequency": 18,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "API Priority",
+    "frequency": 18,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SSD",
+    "frequency": 18,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "MutatingAdmissionPolicy",
+    "frequency": 18,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "HTTP2",
+    "frequency": 18,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Custom Resource Definition",
+    "frequency": 18,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "HTTPRoute",
+    "frequency": 18,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Notifier",
+    "frequency": 17,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "TriggerEvent",
+    "frequency": 17,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Python Dag",
+    "frequency": 17,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "TypeScript",
+    "frequency": 17,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "block",
+    "frequency": 17,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "Microsoft",
+    "frequency": 17,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "AGE",
+    "frequency": 17,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Fedora",
+    "frequency": 17,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Generate",
+    "frequency": 17,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Service object",
+    "frequency": 17,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "Hint Provider",
+    "frequency": 17,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Reserve",
+    "frequency": 17,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "DeviceMetadata",
+    "frequency": 17,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AppArmor profile",
+    "frequency": 17,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Krew",
+    "frequency": 17,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod condition",
+    "frequency": 17,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Airflow connection",
+    "frequency": 16,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Apache Airflow Community",
+    "frequency": 16,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Python code",
+    "frequency": 16,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "OpenTelemetry Collector",
+    "frequency": 16,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "React app",
+    "frequency": 16,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kafka",
+    "frequency": 16,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "JAR",
+    "frequency": 16,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "HITL",
+    "frequency": 16,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Content-Type",
+    "frequency": 16,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "EOF",
+    "frequency": 16,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Pod IP",
+    "frequency": 16,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "KUBECONFIG\nenvironment variable",
+    "frequency": 16,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Guaranteed\npod",
+    "frequency": 16,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Google Kubernetes Engine",
+    "frequency": 16,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Pod priority",
+    "frequency": 16,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Thu Jan  4",
+    "frequency": 16,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodSecurityPolicy",
+    "frequency": 16,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Feb",
+    "frequency": 16,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CustomResourceDefinition\nmetadata",
+    "frequency": 16,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Pod hostname",
+    "frequency": 16,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "TAS",
+    "frequency": 16,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SLA",
+    "frequency": 15,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "GCS",
+    "frequency": 15,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "AirflowPlugin",
+    "frequency": 15,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "SyncCallback",
+    "frequency": 15,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow configuration",
+    "frequency": 15,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "Hello World",
+    "frequency": 15,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "API request",
+    "frequency": 15,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Airflow environment",
+    "frequency": 15,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Public Interface",
+    "frequency": 15,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Valid",
+    "frequency": 15,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "Docker Hub",
+    "frequency": 15,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Service name",
+    "frequency": 15,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "FeatureName",
+    "frequency": 15,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Flannel",
+    "frequency": 15,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "API group",
+    "frequency": 15,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Gateway API",
+    "frequency": 15,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "CEL expression",
+    "frequency": 15,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Pod lifecycle",
+    "frequency": 15,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "LimitedSwap",
+    "frequency": 15,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Common Expression Language",
+    "frequency": 15,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "CDI",
+    "frequency": 15,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Resize CPU",
+    "frequency": 15,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "PostStart",
+    "frequency": 15,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "RuntimeDefault",
+    "frequency": 15,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Use\nkubectl",
+    "frequency": 15,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Metrics Server",
+    "frequency": 15,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "OpenAPI",
+    "frequency": 15,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "PVs",
+    "frequency": 15,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "AWS",
+    "frequency": 14,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "PYTHONPATH",
+    "frequency": 14,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Google",
+    "frequency": 14,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "RFC",
+    "frequency": 14,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Java SDK",
+    "frequency": 14,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Docker Container",
+    "frequency": 14,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Graph View",
+    "frequency": 14,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Kubernetes Secret",
+    "frequency": 14,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "OS",
+    "frequency": 14,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Kubernetes object",
+    "frequency": 14,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Karpenter",
+    "frequency": 14,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DaemonSet controller",
+    "frequency": 14,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Figure",
+    "frequency": 14,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Node autoscaling",
+    "frequency": 14,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "PriorityLevelConfiguration",
+    "frequency": 14,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NFD",
+    "frequency": 14,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "RoleBinding",
+    "frequency": 14,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "GRPCRoute",
+    "frequency": 14,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodCondition",
+    "frequency": 14,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod object",
+    "frequency": 13,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Airflow installation",
+    "frequency": 13,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "GitHub Discussion",
+    "frequency": 13,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Airflow worker",
+    "frequency": 13,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Each version",
+    "frequency": 13,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Windows Subsystem",
+    "frequency": 13,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Kubernetes system",
+    "frequency": 13,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Deployment object",
+    "frequency": 13,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "Hello World application",
+    "frequency": 13,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Retain",
+    "frequency": 13,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "API version",
+    "frequency": 13,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Leader Migration",
+    "frequency": 13,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Bind",
+    "frequency": 13,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Configure Memory",
+    "frequency": 13,
+    "appears_in_files": 13
+  },
+  {
+    "entity": "Clean up\nDelete",
+    "frequency": 13,
+    "appears_in_files": 12
+  },
+  {
+    "entity": "QPS",
+    "frequency": 13,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "VerticalPodAutoscaler",
+    "frequency": 13,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Kubernetes node",
+    "frequency": 13,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "Baseline",
+    "frequency": 13,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "node condition",
+    "frequency": 13,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Pod level",
+    "frequency": 13,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Pod disruption",
+    "frequency": 13,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "OnDelete",
+    "frequency": 13,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "NIOServerCxn",
+    "frequency": 13,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod readiness",
+    "frequency": 13,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "InPlace",
+    "frequency": 13,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow deployment",
+    "frequency": 12,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Docker image",
+    "frequency": 12,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Dag object",
+    "frequency": 12,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Airflow component",
+    "frequency": 12,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "IO",
+    "frequency": 12,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Airflow 3",
+    "frequency": 12,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "OCI",
+    "frequency": 12,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Local",
+    "frequency": 12,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Each request",
+    "frequency": 12,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Jinja template",
+    "frequency": 12,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "BaseEventTrigger",
+    "frequency": 12,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "SegmentWindow",
+    "frequency": 12,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Monday",
+    "frequency": 12,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Mark",
+    "frequency": 12,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "BaseSensorOperator",
+    "frequency": 12,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Grid View",
+    "frequency": 12,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Airflow version",
+    "frequency": 12,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Deadline Alert",
+    "frequency": 12,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "UUID",
+    "frequency": 12,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "OOM",
+    "frequency": 12,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "HTTP request",
+    "frequency": 12,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "RetryDecision",
+    "frequency": 12,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Python client",
+    "frequency": 12,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Task SDK Reference",
+    "frequency": 12,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "basic",
+    "frequency": 12,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Kubernetes v1.22",
+    "frequency": 12,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Kubernetes version",
+    "frequency": 12,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Corefile",
+    "frequency": 12,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CPU Manager",
+    "frequency": 12,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Ubuntu",
+    "frequency": 12,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "GCE",
+    "frequency": 12,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "ClusterConfiguration",
+    "frequency": 12,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes v1.24",
+    "frequency": 12,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Redis Pod",
+    "frequency": 12,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "PodSecurity",
+    "frequency": 12,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "ImagePullBackOff",
+    "frequency": 12,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Kompose",
+    "frequency": 12,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CronTab\nmetadata",
+    "frequency": 12,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "work item",
+    "frequency": 12,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Indexed Job",
+    "frequency": 12,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod failure",
+    "frequency": 12,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Git Bash",
+    "frequency": 12,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Windows Command Prompt",
+    "frequency": 12,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "NotIn",
+    "frequency": 12,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Pod affinity",
+    "frequency": 12,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Complete",
+    "frequency": 12,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "AverageValue",
+    "frequency": 12,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "EndpointSlice API",
+    "frequency": 12,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Ingress API",
+    "frequency": 12,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Running and Ready",
+    "frequency": 12,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dag Serialization",
+    "frequency": 11,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dag parsing",
+    "frequency": 11,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "JSON format",
+    "frequency": 11,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "CLI command",
+    "frequency": 11,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Dag structure",
+    "frequency": 11,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Kubernetes Executor",
+    "frequency": 11,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Airflow instance",
+    "frequency": 11,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Elasticsearch",
+    "frequency": 11,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Common Name",
+    "frequency": 11,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Airflow scheduler",
+    "frequency": 11,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Airflow CLI",
+    "frequency": 11,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Python function",
+    "frequency": 11,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "TypeError",
+    "frequency": 11,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "TriggerRule",
+    "frequency": 11,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "BundleBuilder",
+    "frequency": 11,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "JavaScript",
+    "frequency": 11,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "FileSensor",
+    "frequency": 11,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "DuckDB",
+    "frequency": 11,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "HelloOperator",
+    "frequency": 11,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Memray",
+    "frequency": 11,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Forbidden",
+    "frequency": 11,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Cluster\ncontent_type",
+    "frequency": 11,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "TCP port",
+    "frequency": 11,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Kubernetes Dashboard",
+    "frequency": 11,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "API\nserver",
+    "frequency": 11,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "SRV",
+    "frequency": 11,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "DNS server",
+    "frequency": 11,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "KMS provider",
+    "frequency": 11,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CA certificate",
+    "frequency": 11,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Pending",
+    "frequency": 11,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "Kubernetes v1.33",
+    "frequency": 11,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "VXLAN",
+    "frequency": 11,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Kubernetes scheduler",
+    "frequency": 11,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "NodeLocal DNSCache",
+    "frequency": 11,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "API Aggregation",
+    "frequency": 11,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Terminating",
+    "frequency": 11,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Pod termination",
+    "frequency": 11,
+    "appears_in_files": 11
+  },
+  {
+    "entity": "4 CPU",
+    "frequency": 11,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod startup",
+    "frequency": 11,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "EBS",
+    "frequency": 11,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Pod overhead",
+    "frequency": 11,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "True\"\ntype",
+    "frequency": 11,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Horizontal Pod Autoscaling",
+    "frequency": 11,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Kubernetes v1.31",
+    "frequency": 11,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Normal    SuccessfulCreate    Created",
+    "frequency": 11,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Job\nmetadata",
+    "frequency": 11,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "FailureTarget",
+    "frequency": 11,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ApplySet",
+    "frequency": 11,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SingleStack",
+    "frequency": 11,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Failed",
+    "frequency": 11,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Pod P",
+    "frequency": 11,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "VolumeSnapshotClass",
+    "frequency": 11,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "PGBouncer",
+    "frequency": 10,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CPU usage",
+    "frequency": 10,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "KubernetesPodOperator",
+    "frequency": 10,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Airflow plugin",
+    "frequency": 10,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Dag code",
+    "frequency": 10,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Celery worker",
+    "frequency": 10,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Each object",
+    "frequency": 10,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "NEVER_EXPIRE",
+    "frequency": 10,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TaskScope",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DayWindow",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "WeekWindow",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "IPC",
+    "frequency": 10,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Clock",
+    "frequency": 10,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Celery Executor",
+    "frequency": 10,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Bob",
+    "frequency": 10,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Note",
+    "frequency": 10,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "BaseExecutor",
+    "frequency": 10,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MariaDB",
+    "frequency": 10,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DagModel",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SemVer",
+    "frequency": 10,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "JWK",
+    "frequency": 10,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Debian",
+    "frequency": 10,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "LoadBalancer Ingress",
+    "frequency": 10,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CLUSTER-IP",
+    "frequency": 10,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Kubernetes v1.27",
+    "frequency": 10,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "KEK",
+    "frequency": 10,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Harden Dynamic Resource Allocation",
+    "frequency": 10,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "resourceName",
+    "frequency": 10,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "KMS v2",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Dec 30, 2020",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod Quota",
+    "frequency": 10,
+    "appears_in_files": 10
+  },
+  {
+    "entity": "Pod manifest",
+    "frequency": 10,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Kubernetes Deployment",
+    "frequency": 10,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Eviction API",
+    "frequency": 10,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "NodeRestriction",
+    "frequency": 10,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Linux kernel",
+    "frequency": 10,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Device Manager",
+    "frequency": 10,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "EndpointSlice controller",
+    "frequency": 10,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Ignore",
+    "frequency": 10,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "APF",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "OnFailure",
+    "frequency": 10,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Secret\nmetadata",
+    "frequency": 10,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Active Directory",
+    "frequency": 10,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "NotRequired",
+    "frequency": 10,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SuccessfulCreate",
+    "frequency": 10,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ScheduleAnyway",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DSR",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Cassandra StatefulSet",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PersistentVolumeClaim\nmetadata",
+    "frequency": 10,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "VolumeAttributesClass",
+    "frequency": 10,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "VolumeSnapshotContent",
+    "frequency": 10,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pluggy",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dockerfile",
+    "frequency": 9,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "UNIX domain socket",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Airflow database",
+    "frequency": 9,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "BaseStoreBackend",
+    "frequency": 9,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "AssetAccessControl",
+    "frequency": 9,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Tip",
+    "frequency": 9,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "NodeCoordinator",
+    "frequency": 9,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "February 1st",
+    "frequency": 9,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "One way",
+    "frequency": 9,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Fernet",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "POST",
+    "frequency": 9,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Airflow Community",
+    "frequency": 9,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Dag version",
+    "frequency": 9,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Secrets Backend",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Migrating",
+    "frequency": 9,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Familiarity",
+    "frequency": 9,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "BaseNotifier",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Friday",
+    "frequency": 9,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Drop",
+    "frequency": 9,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "OIDC",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Human",
+    "frequency": 9,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "NewReplicaSet",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "ReadWriteOncePod",
+    "frequency": 9,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes\ncluster",
+    "frequency": 9,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Kubernetes v1.26",
+    "frequency": 9,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Kubernetes core",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Kubernetes v1.28",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "GiB",
+    "frequency": 9,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Kubernetes v1.36",
+    "frequency": 9,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "ClusterRole\nmetadata",
+    "frequency": 9,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Pod's IP address",
+    "frequency": 9,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "CSR file",
+    "frequency": 9,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Delete the Pod",
+    "frequency": 9,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Namespace\nConfigure",
+    "frequency": 9,
+    "appears_in_files": 9
+  },
+  {
+    "entity": "Guaranteed\nQoS class",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "KEP",
+    "frequency": 9,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Container Runtime Interface",
+    "frequency": 9,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "cluster\nadministrator",
+    "frequency": 9,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "process ID",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "SCTP",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Quality of Service",
+    "frequency": 9,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "ServiceAccount object",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "SAM",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "TokenRequest",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Burstable",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "RestartContainer",
+    "frequency": 9,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Ingress resource",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "APIService",
+    "frequency": 9,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Aggregated API",
+    "frequency": 9,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "NodePort\nService",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "JSON merge patch",
+    "frequency": 9,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "PreferDualStack",
+    "frequency": 9,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Hard",
+    "frequency": 9,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DeviceTaintRule",
+    "frequency": 9,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodGroup\nmetadata",
+    "frequency": 9,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "ResourceSlice\nmetadata",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes REST API",
+    "frequency": 9,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "WAL",
+    "frequency": 9,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ZooKeeper process",
+    "frequency": 9,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "XFS",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CSI ephemeral volume",
+    "frequency": 9,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Portworx",
+    "frequency": 9,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Fish",
+    "frequency": 9,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CompositePodGroupTemplate",
+    "frequency": 9,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "SHA",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dags folder",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Versioning",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Task Execution API",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "IOP",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "SQLExecuteQueryOperator",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "JSON object",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Google Cloud",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Azure",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Dag folder",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Flask Appbuilder",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow task",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Amazon",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Airflow metadata database",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Uvicorn",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "UNIX",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Each key",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Sunday",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "AsyncCallback",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "API call",
+    "frequency": 8,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Another example",
+    "frequency": 8,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "Europe",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dataset",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "PythonVirtualenvOperator",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Local Executor",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Automatic",
+    "frequency": 8,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "JSON file",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "AI",
+    "frequency": 8,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "SMTP",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Bearer",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "SlackWebhookNotifier",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "grant",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "MsSQL",
+    "frequency": 8,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DataInterval",
+    "frequency": 8,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "WSL",
+    "frequency": 8,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Dag author code",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "SBOM",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "EXTERNAL",
+    "frequency": 8,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "PKI",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Cloud Controller",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Burstable\npod",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Secret API",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Intel",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Kubernetes v1.29",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CIDR",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Single Healthcheck",
+    "frequency": 8,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "KMS v1",
+    "frequency": 8,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Windows worker node",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Motivation",
+    "frequency": 8,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Node Lease",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Antrea",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Declare Network Policy",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "DNS record",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "KubeletConfiguration Setting",
+    "frequency": 8,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes 1.29",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "VMs",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Lease API",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "VM",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Ready\ncondition",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "CNCF",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Kubernetes v1.37",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Pod API",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Observe",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Bound",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "JSON patch",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Deploy",
+    "frequency": 8,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Pod-level limit",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Kubernetes Object Management",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "ConfigMap object",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod resource",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "TLS Secret",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TokenRequest\nAPI",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod Container",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Backoff",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "ContainerUser",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "PodResizeInProgress",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "SELinux label",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Listed",
+    "frequency": 8,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "CrashLoopBackOff",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Ready",
+    "frequency": 8,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "RPC",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "KubeSchedulerConfiguration",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Parallel Processing",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Deployment, StatefulSet",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Ceph",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Install kubectl",
+    "frequency": 8,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "DNS label",
+    "frequency": 8,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "API kind",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Kubernetes v1.32",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "StatefulSet Pod",
+    "frequency": 8,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CompositePodGroup\nfeature gate",
+    "frequency": 8,
+    "appears_in_files": 8
+  },
+  {
+    "entity": "MostAllocated",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Topology-Aware Scheduling",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Endpoints API",
+    "frequency": 8,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "GatewayClass",
+    "frequency": 8,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ZooKeeper server",
+    "frequency": 8,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Recommender",
+    "frequency": 8,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "JobSet",
+    "frequency": 8,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "rerun",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "GitDagBundle",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MB",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Dag definition",
+    "frequency": 7,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Sentry",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Core Airflow",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Stack Overflow",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Creating",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "AssetScope",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "MyOperator",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Jinja Templating",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "PartitionedAtRuntime",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "IdentityMapper",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "teamless consumer",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "(\nDAG",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ValueError",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "PostgresHook",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Cron",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Gradle Wrapper",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CronDataIntervalTimetable",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Markdown",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Multi-Team Airflow",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Invalid",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "MySQL database",
+    "frequency": 7,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "UIAlert",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Strict",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "RHEL",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Debian Bookworm",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Airflow Slack",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PGP",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Linux container",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Windows Support",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Contribution",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Create a Service",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "VAR_NAME",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Secret name",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CN",
+    "frequency": 7,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "CFS",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "SRV record",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Fedora\" %",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes control plane component",
+    "frequency": 7,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Ready\nstate",
+    "frequency": 7,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Windows service",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Guaranteed QoS class",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Monitor",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Kubernetes NetworkPolicy",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Node Allocatable",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod definition",
+    "frequency": 7,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "Restricted\nPod Security Standard",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Terminated\nstate",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod\nspecification",
+    "frequency": 7,
+    "appears_in_files": 7
+  },
+  {
+    "entity": "SSH tunnel",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Konnectivity service",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "NotReady",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "burst",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Cluster Proportional Autoscaler",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod placement",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "API type",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "ValidatingAdmissionPolicyBinding",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "400M",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Allocate",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "HTTP probe",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Restricted",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "LimitRanger",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "PSP",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Unconfined",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "GET / HTTP/1.1",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Service IP",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "CRUD",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SOCKS5",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Redis Service",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DaemonSet template",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Object configuration",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodGroup API",
+    "frequency": 7,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "PreEnqueue",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "PodGroup\nobject",
+    "frequency": 7,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Pod Group Disruption",
+    "frequency": 7,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Node N",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CycleState",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TopologyPlacement",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Single",
+    "frequency": 7,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CNAME",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Raw Block Volume",
+    "frequency": 7,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "LogMonitor",
+    "frequency": 7,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "FAB auth manager",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Airflow user",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Failed state",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "StatsD",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Web UI",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "min",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "iframe",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "RunID",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Consul",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Repeat",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "AssetWatcher",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Dag execution",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Denial of Service",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MM",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "FixedKeyMapper",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "AddTask",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Parameter\nDefault\nDescription",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "JavaCoordinator",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DagDef",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ClassVar",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "America/Chicago",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "January 31st",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow API",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow's configuration",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Apache Airflow\u00ae",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Spark",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "MySQL Server",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CSS",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Add",
+    "frequency": 6,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "FAQ",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "UTF-8",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "STDOUT",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Apache Software Foundation",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Quick Start",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "GitHub issue",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "VARCHAR",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ALTER\nTABLE",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "TIToken",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "JWT authentication",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Google Compute Engine",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Google Container Registry",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ReadWriteOncePod\naccess mode",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Alpine",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod's namespace",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "CIDR notation",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Linux worker",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Upgrade Linux",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes\nbaseurl",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DNF4",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AlwaysAllow",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Kubernetes v1.20",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Rootless Podman",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Running kubelet",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Namespace\ncontent_type",
+    "frequency": 6,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Unix socket",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Lease\nobject",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Terminating\nstate",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "ClusterFirst",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Run\nkubectl",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "TLS certificate",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Hardening Guide - Dynamic Resource Allocation",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Restrict access",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "BestEffort\nPod",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Container Network Interface",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Node autoscaler",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "BGP",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "OpenStack",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Recursive",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "IPAM",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Non-Graceful Node Shutdown",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PSI",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod shared pool",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Fri Jan  5",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Deployment manifest",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Group Managed Service",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "GMSA credential spec",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ContainerAdministrator",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "image volume",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod Security level",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodResizePending",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod sandbox",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Thu",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Host Port",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "ContainerMemory",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Flanneld",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Chocolatey",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AllocateResponse",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "TopologyInfo",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "FPGA",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Served flag",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CustomResourceDefinition object",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "OpenAPI v3",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "OpenAPI v2",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SampleDB",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "HTTP traffic",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "FailJob",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "POSIX-compatible shell",
+    "frequency": 6,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Install\nkubectl",
+    "frequency": 6,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "CR",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Discovery API",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PreBind",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Possible Solution",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Resource\nresource",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Stateless Application",
+    "frequency": 6,
+    "appears_in_files": 6
+  },
+  {
+    "entity": "Pod\nresource",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Gt",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CompositePodGroup\nobject",
+    "frequency": 6,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "NodeResourcesFit",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "BT\nsubgraph",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CertificateSigningRequest",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "TokenRequest API",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes v1.21",
+    "frequency": 6,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Range Size",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "HAProxy",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Zab",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "StorageClass object",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "HorizontalPodAutoscaler controller",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Deployment rollout",
+    "frequency": 6,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodGroupTemplate",
+    "frequency": 6,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Pod disruption condition",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "PodGC",
+    "frequency": 6,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "IAM",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Airflow webserver",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "EFS",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Python module",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Dag parser",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Good example",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "SchedulerJob",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dag callback",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "MyNotifier",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dag level",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CLI Check",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "all worker",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Flask",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "fluentd",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Setup - OpenTelemetry",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SSL",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Airflow 3.1",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "FastAPI app",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "FastAPI middleware",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "English",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "register",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "FAB provider",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "HA",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Asset store",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Core API Server",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AssetEvent",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AssetOrTimeSchedule",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Trigger Dag",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Content-Type:",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "MinimumCount",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "BACKWARD",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Waiting",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "AsyncIterator",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Normal",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "S3ListOperator",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "GetConnection",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MyBundle",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "JSON string",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "$PATH",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Variable.get",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Switch",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "AirflowException",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Git repository",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "TriggerDagRunOperator",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "At least one upstream task",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Path API",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "JSON Schema",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Trigger UI Form",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MyCustom",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Container environment",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "contributor",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Test Connection",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Grid",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Docker Compose file",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "HTTP/2",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CSV",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Official Docker Image",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow\u00ae",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Airflow core",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "WSL2",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "MODIFY\ntask_id\nVARCHAR",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow Python Client",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Legal Entity",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PR",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DAG.RUN",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Tail",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "RSA",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "API access",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "SQL injection",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Install Airflow",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SIGKILL",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Parquet",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Serial Number",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Identify",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Kubernetes documentation",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Container's Access",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "MITM",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Configure Access",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Deployment and Service",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "NodePort value",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Headlamp",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Haskell",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes API\ncontent_type",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "ReadWriteOnce",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Migrate Replicated Control Plane",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CPU manager policy",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CoreDNS service",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DNS horizontal autoscaling",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Key Management Service",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Review",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "ACL",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "IPv6 address",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Windows worker",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "DNF5",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Rootless Docker",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Rootless Mode",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod's only container",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Pod's specification",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Uncordon",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Topology Manager scope",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "BestEffort\nQoS class",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Linux distribution",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "EndpointSlice\nobject",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Contiv",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Validating",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "MutatingWebhookConfiguration",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "DRA\ndriver",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "API Priority and Fairness",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Expose",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Kubernetes network model",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "TD",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod deletion",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "OOM killer",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Log Query",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CPU time",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Validation failure",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "pending\nstate",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "OK",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "exclusive slice",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Opaque\ndata",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod\nspec",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "PersistentVolume\nmetadata",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Extended Resource allocation",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Restart Count",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod's\nrestartPolicy",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "NativeSidecar",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Secret type",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Thu Jan",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Ctrl-C",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod configuration",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "YAML format",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "TCP probe",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "OpenID Provider Configuration",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "API credential",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ServiceAccount\nmetadata",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DRA device",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Built-In PodSecurity Admission Controller",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod Security Admission Controller",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod Resize",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CapPrm",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes\nDeployment",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "TERM signal",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Server Fault",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod Phase",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "False\"\ntype",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Resource Metrics Pipeline",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ExceptionList",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DynamicResource",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CDIDevice",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CA bundle",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Namespaced",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "API representation",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Webhook conversion",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "None conversion",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes ecosystem",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "SOCKS5 proxy",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Each element",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "FirstSeen    LastSeen    Count",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "FailureTarget\ncondition",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "POSIX shell syntax",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "RollingUpdate\nupdate strategy",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Storage Version Migration",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes API resource",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "DNS subdomain",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "DRA resource",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "PHP",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ANDed",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Lt",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "GenericWorkload\nfeature gate",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "PodGroup scheduling",
+    "frequency": 5,
+    "appears_in_files": 5
+  },
+  {
+    "entity": "Pod update",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Node N.",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodGroup scheduling cycle",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "QueueingHint",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NormalizeScore",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Equal\"\nvalue",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes v1.30",
+    "frequency": 5,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Linux kernel security module",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod's FQDN",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "RequireDualStack",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Endpoints resource",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Service Internal Traffic Policy",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod Management Policy",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "NIOServerCnxn@1008",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Ceph RBD",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "VolumeSnapshotContent\nobject",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Scoop",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CertUtil",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Write-Host",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Percent\nvalue",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CronJob controller",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Single Job",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Job\ncontroller",
+    "frequency": 5,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "True\"\nlastProbeTime",
+    "frequency": 5,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodReadyToStartContainers\ncondition",
+    "frequency": 5,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AIRFLOW_HOME",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "S3 bucket",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Airflow 2.0.0",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dag file processing",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Performance improvement",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "BaseHook",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Command Line Interface",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "AirflowSkipException",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "HTTP API",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "task name",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "WASB",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "HTTP server",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Datadog",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Grafana",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Python package",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Python version",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "FastAPI application",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow REST API",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "API server log",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "KDC",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Amazon Web Service",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Apache Zookeeper",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Bucket\n=",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow's metadata database",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "security implication",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Global producer",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "StartOfDayMapper",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "FanOutMapper",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "FORWARD",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "12AM",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TimeSensor",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "BigQuery",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "plan",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "XCom value",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Any triggerer",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dag processing",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Resource use",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "TaskFlow function",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "SQS",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "AdvanceItem",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Coordinator configuration",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "DagID",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "JVM",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Java Platform Logging",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Java SDK API Reference",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Maven Central",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "JAVA_SDK_VERSION",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Maven",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "BOM",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Client\nclient",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "AbortSignal",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Decimal",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Wednesday",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "February 2nd",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DeltaDataIntervalTimetable",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Vault",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "JWT signing key",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Airflow's public interface",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Breeze",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Navigate",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Advanced Config",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dag's schedule",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Fill",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dag Details page",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "KaTeX",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow Executor",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Control Flow",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ExternalTaskSensor",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "ExecuteTask",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Cross-Team Opt-In",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Team-scoped variable",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Team A",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Dag)\nTeam B",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "(API",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Bash script",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "JSON schema validation",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ResumableJobMixin",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Further reading",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "BaseXCom",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DataFrame",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow container",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Screenshot",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "UI/API",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "StringField",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Connection.get_uri",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "FooOperator",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "TaskDecorator",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "iterate",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AVERAGE_RUNTIME",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PROD",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Maria DB",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SQLAlchemy documentation",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "command line tool",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "YAML file structure",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Container/Docker",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow software",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "GPG",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dec",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MODIFY\ndag_id\nVARCHAR",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "AIR301",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Source form",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow system",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Migrate",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Celery Flower",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Setting\nDefault",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Token revocation",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SecretsBackend",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Authenticated UI",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Remote Code Execution",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Scheduler/Executor",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SIGTERM",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Serial Number\" NUMERIC PRIMARY KEY",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "QUOTE",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NUMERIC PRIMARY KEY",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Asset Graph View",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes master",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Kubernetes user",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "GET request",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Windows PowerShell",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Customizing DNS Service",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "StrategyType",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Mon",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Type          Status  Reason",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "List Container",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Dashboard UI",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Enable",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Feature Gates reference",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes\ncontent_type",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CFS quota",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Decrypt",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "API data",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "HTTP endpoint",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "A record",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ADDRESSTYPE",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "AES",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "MASQUERADE\n/ ADDRTYPE match dst-type",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "KMS plugin",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Install-Containerd.ps1",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Hyper-V",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Changing The Kubernetes Package Repository",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "URL path",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Consult",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "LXC/LXD",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "KubeletInUserNamespace\nfeature gate",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ResourceQuota\nmetadata",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Create a LimitRange",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Windows operating system",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Kubernetes namespace",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "NetworkPolicy\ncontent_type",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Pod scheduling",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "IPV",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ResourceQuota object",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "PersistentVolumeClaim object",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Example value",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pods\nvalue",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "API-initiated eviction",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "I0314",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "container resource",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Hub",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Konnectivity server",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Cluster\nLearn",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "OwnerRefInvalidNamespace",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TTL controller",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "IPv4 address",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CNI-Genie",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Contrail",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CustomResource",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TokenReview",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AdmissionReview",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes Metrics\nReference",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Workqueue Depth",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CPU utilization",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Push",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Fri Apr",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Autoscaling",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "LR",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Cortex",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Node Feature Discovery",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "WithName",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "No label",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Getting Started",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CEL Playground",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MutatingAdmissionPolicyBinding",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "device owner",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ClusterRoleBinding",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Convert",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Opaque",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Secret:\nshell\nkubectl",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes storage",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Resize Pod CPU",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Ki",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Fri",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SidecarContainers\nfeature gate",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "SSH authentication",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Opaque\ntype",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "API client",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Sat Feb 17",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NodeAllocatable",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AGE    IP           NODE",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "PreStop",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DC",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Configure Liveness",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "HTTP/2 cleartext",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes Volume",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Discovery Spec",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PD",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CertificateSigning",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Docker ID",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "At least one Container",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Infeasible",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Container Storage Interface",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CapEff",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MountOption",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Waiting\nstate",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "CRI implementation",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "RuntimeClass\nmetadata",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Kubernetes Slack",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Container ID",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Waiting\nReason",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "QoS Tier",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "POD_NAME",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "NotFound",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "DNS lookup",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "NodeStatusUnknown",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DirectoryOrCreate",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Horizontal Pod Autoscaler",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Server Version",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pause container",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Aggregated API server",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes v1.34",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ClaimResource",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "List\nendpoint",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ContainerResource",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TLS connection",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes source code",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CamelCased",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CamelCased singular type",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "OpenAPI schema",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes service account",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Ctrl+C",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes Job",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Job manifest",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Redis CLI",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod's lifetime",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Type    Reason            Age",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "DNS system",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Delete the Job",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "FailIndex",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "deleted pod",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod backoff failure policy",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Rolling",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "ApplySet-based pruning",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Json6902",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Deployment\nname",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "selfierequest",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "RollingUpdate\nstrategy",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "IP address range",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "IPv4/IPv6 dual-stack",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Integrate",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes v1.25",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "StatefulSet\nmetadata",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "DoesNotExist",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "UpdateRequestMetadata",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "N-1",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Utilization\naverageUtilization",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Object\nobject",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "AGE\nnginx-deployment",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod Priority and Preemption",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "ORed",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CompositePodGroup API",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "RestartAllContainers\naction",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod cgroup",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod Q",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodGroup object",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "PodGroup scheduling algorithm",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PodGroupPostFilter\nextension point",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CompositePodGroup\nhierarchy",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Topology-aware workload scheduling",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Node 1",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "PreFilter",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes v1.18",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Reserve phase",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PreferNoSchedule",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod\nmypod",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod Security\nStandard",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Webhook token authentication",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SO_REUSEADDR",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod\nsecurityContext",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Resource sharing",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "NetworkPolicy resource",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Mandatory Access Control",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod's ServiceAccount",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ClusterIP\nService",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "EndpointSlice object",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Gateway listener",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Ingress object",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Each NetworkPolicy",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Each rule",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Deploy a Release Using a Canary Deployment",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "HCS",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Direct Server Return",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "StatefulSet\nkubectl",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "StatefulSet's\n.spec.template",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "WatchedEvent",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Thu Dec 08",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ZooKeeper ensemble",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Zab protocol",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "WatchedEvent state",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SyncConnected type",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "None path",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NIOServerCnxn@827] - Processing ruok command",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Factory:0.0.0.0/0.0.0.0:2181",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ReadOnlyMany",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CSI Provisioner",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Portworx volume",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CSI spec",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ReferenceGrant",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Some optional configuration",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Silicon",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Linux control plane node",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Cluster Proportional Vertical Autoscaler",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "KEDA",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "HPA controller",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Workload\nmetadata",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Deployment's Pod template",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CURRENT   READY     AGE\nnginx-2142116321",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NonIndexed",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "WorkloadWithJob\nfeature gate",
+    "frequency": 4,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "SuccessCriteriaMet\ncondition",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PersistentVolume Provisioner",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PreemptionByScheduler",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DisruptionTarget\ncondition",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ContainersReady",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Initialized\ncondition",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TieredReservation",
+    "frequency": 4,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CompositePodGroup\nAPI",
+    "frequency": 4,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "scheduling building block",
+    "frequency": 4,
+    "appears_in_files": 4
+  },
+  {
+    "entity": "Dag/Task",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Git Dag bundle",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Subdir",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Each Dag Run",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dag parameter",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Triggerer component",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Stable Interface",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "FileProcessor",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "RemoteLogIO",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow job",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Celery cluster",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "HDF",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "OSS",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Inheritance",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CET",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PLUGINS_FOLDER",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Gunicorn",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "OTEL_SERVICE_NAME",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "BaseDag",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Python PATH",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "React app integration",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "MapIndex",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MINOR",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Google API",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Workload Identity",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Docker environment",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Select",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "MetastoreBackend",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Consume",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow workflow",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "DST",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Amazon Provider",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Asset\ndefinition",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dag producer",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "StartOfWeekMapper",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "API documentation",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "NDJSON",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "API endpoint",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "TaskFlow task",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Task Start",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dags\nAirflow",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "No state",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SharedStreamProducer",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "TryNumber",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ExecutableCoordinator",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "XCom backend",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "JRE",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "python object",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Gradle",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ProcessTask",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "JUL",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SLF4J",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "JCL",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Java project",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Equivalent",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ServiceLoader",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ESM",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "GetContext",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "True\n#",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Interpretation",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "UPSERT",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AIR",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Git-Sync",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DevOps/System Admin",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "External Python",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dag loading time",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ExternalPythonOperator",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DockerOperator",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DagAccessEntity",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow public API",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "GroupCommand",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow API server",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dag logic",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "JSON blob",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "January 1st",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DAG(\"my_daily_dag",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Dag task",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Creating Team",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Allow",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "-X",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ETag",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "HiveOperator",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Jinja Documentation",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow's functionality",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Operations User",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Param` class",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dag trigger",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "general pattern",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "GC",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Firstly",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "SFTP",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SFTP server",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Complex",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "NTP",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ASCII",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Canary Dag",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Test Connection button",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Provider support",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "FooDecoratedOperator",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow context",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "React Plugin",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "React application",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SVG",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Dag-level retry",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "BaseDeadlineReference",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "TaskInstanceKey",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Operator Link",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Stackoverflow",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "PyCharm",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Linux system",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow image",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "HTML file",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "UI page",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Official Helm Chart",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SQLite database",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Some information",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Saturday",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dag run's logical date",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Airflow 3.x",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Alembic revision",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Python environment",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Each column",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CI/CD system",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "DockerHub",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Wrong Encoding",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Key Import",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Simple Auth",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Appendix",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "X.Y.Z",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Access-Control-Allow-Origin",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "COR",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Airflow permission",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "LoggingMixin",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Programmatic access",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "HS512",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "RS256",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DFP",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "JSON Web Token",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Ed25519",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Dag File\nProcessor",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "RCE",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "API level",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Scheduler or API Server process",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Dag\nauthor",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Deploying",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Security policy",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Envoy",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Home Page",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "HITL operator",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Amazon S3",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes provider",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Dag List View",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Dag Run View",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Edge",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Each row",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PHP Guestbook",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "UDP/TCP",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TOKEN=$(kubectl",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Bearer $TOKEN",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "API definition",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Go client",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Organizing Cluster Access Using",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "KUBECONFIG environment",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Organizing Cluster Access",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AGE\nfrontend",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "EXTERNAL-IP",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Create a Deployment",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Deployment:\nshell\nkubectl",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Services\ntutorial",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Service type",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Java Client",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ApiClient",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "IOException",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes team",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CoreV1Api",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "\"DN",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "-CA",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "JSON config file",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CA key",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ReadWriteOnce\naccess mode",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "API compatibility",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Administrative access",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "TLS authentication",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Leader\nMigration",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "LeaderMigrationConfiguration\napiVersion",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Cloud Controller Manager Administration",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CoreDNS configuration",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "pod CPU limit",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "WindowsCPUAndMemoryAffinity\nfeature gate",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CPU reservation",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Limit access",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Reconfigure",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod's\ndnsPolicy",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "stub-domain",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DNS pod",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DNS query",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Autoscale",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DNS Deployment",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Key material",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "AES-GCM",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "KMS v1 provider",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Node\ncontent_type",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Key Rotation",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "EncryptRequest",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "EncryptRequest\nprocedure call",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes\nyum\nrepository",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Dec 28, 2029",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Component configuration",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Draining",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Debian or HypriotOS\" %}}\nshell\n# replace",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "-LO",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "AllAlpha",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CredentialProviderRequest",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Sysbox",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes distribution",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "LimitRange\nobject",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "LimitRange constraint",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ResourceQuota\nobject",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CPU(",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NUMA0",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod's memory request",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Static\nMemory Manager policy",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Ready    v1.19.6",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "node agent",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CNI config file",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CNI specification",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Namespace\nmetadata",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "GKE",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "L7",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kube-router",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NodeLocal",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DNAT",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Transport Layer Security",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Linux Security Module",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "NodeRestriction\nadmission plugin",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "HTTPS endpoint",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubelet authentication",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Evented PLEG",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes Enhancement Proposal",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes 1.32",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Topology\nManager",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "TopologyManagerPolicyOptions\nfeature gate",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Burstable\nQoS class",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "VERSION.spdx",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes controller",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "MinAge",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Each\nkube-apiserver",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Aggregated Discovery",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "NoExecute\ntaint",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes Container Environment",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "IAA",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Open vSwitch",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Golang",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes UI",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CNCF project",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ValidatingAdmissionWebhook",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Workqueue Add Rate",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Workqueue Work Duration",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubelet Version",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Suggested Configuration",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "API Priority and Fairness feature",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "API Priority and Fairness\nfeature",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Non-Graceful Node Shutdown\nprocedure",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Cluster Architecture",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "NoSwap",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "such volume",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Guaranteed",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Contextual Logging",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ContextualLogging",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "GVK",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Delete a Pod",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ExactCount",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ResourceClaim\nmetadata",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Linux operating system",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod[\"Pod-Level Budget",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "TB",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Creating Secret",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Secret\nobject",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Secret concept",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "S!B\\*d$zDsb=",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Updating",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod\ndefinition",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Storage\ncontent_type",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Available",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Last State",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "PodLevelResources\nfeature gate",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Gi",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Mi",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "False\nRestart Count",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Secret manifest",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Cancel",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Fri Jan",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ACME, Inc.",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ACME",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Fiktivesunternehmen GmbH",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Configure Quality of Service",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "OOM kill",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "KEP-5304",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DRA terminology",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "GMSACredentialSpec",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SID",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "TCP check",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod's output",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pods\ncontent_type",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes\nAPI",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes\ncontrol plane",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "VSZ",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "RSS",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Create a Windows HostProcess Pod",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "HostProcess pod",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Windows HostProcess Pod",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Container\ncontent_type",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod Security\nAdmission",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DefaultStorageClass",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CertificateApproval",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod Security Standards\nreference",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Verify",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Service (QoS) class",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Container 1",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CSIDriver",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Unmasked",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Ownership Management",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Security Enhanced Linux",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "-R",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod security context",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "SupplementalGroupsPolicy",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Sl",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SELinuxMount",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Install Kompose",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DaemonSet object",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "PostStart\nhook",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CRI API",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Podman",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "AlwaysPullImages\nadmission controller",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "GCR",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CRI runtime",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Stack Exchange",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Kubernetes community",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Go template",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Service selector",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "NoExecute\nkey",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DNS Service IP",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Proxier",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Service port",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Service abstraction",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "StatefulSet\ncontent_type",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "POD ID",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "API aggregation layer",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CNCF Landscape",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "VPN",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "GMT",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Place Using",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Common metadata",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "API extension",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Declarative",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "AA",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CRD object",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Yes\n|",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Storage Interface",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "USB",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CDI specification",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "GetAllocatableResources\nendpoint",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Get\nendpoint",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Device Plugin Integration",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CA cert",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Ci0tLS0tQk...<base64-encoded PEM bundle>",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "ConversionReview",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ConversionReview\nobject",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Each controller",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CronTab \"my-new-cron-object",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "OpenAPIV3 schema",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Equality",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes cluster role",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PEM",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SOCKS proxy",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "HTTPS traffic",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "HONORIFIC",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "POSIX-compliant bash",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod\napiVersion",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Expose Pod Information",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Failed\nPod Template",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Indexed\nJob",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes API\nserver",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pending\nphase",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "True\"\nreason",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Failed\nphase",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Job termination",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "NODE_PORT=\"$(kubectl",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "CNAME\nrecord",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Node\nport",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Continuous Integration",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DaemonSet revision",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Bar\nkind",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Secret generator",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Create CR",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "StorageVersionMigration\napiVersion",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "EOF | kubectl",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Kubernetes Default ServiceCIDR Reconfiguration",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "MyApp\nname",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "CI/CD pipeline",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "PersistentVolume\nobject",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Resource Handling",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Viewing",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DeviceAttribute",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DRAListTypeAttributes\nfeature gate",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "MIG",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DeviceMetadata\nAPI",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NUMA alignment",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "cluster manager",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Init:0/2",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "MySQL replication",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SELECT @@server_id\nloop",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Run a Stateless Application Using a Deployment",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Manual",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Scale a StatefulSet",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Pod anti",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Zone V",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Zone R",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "QueueSort",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Permit",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "LRU",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CommitLimit",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "DiskPressure",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod P.",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PriorityClass object",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod Scheduling Readiness",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "SchedulingGated",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod's state",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "PreScore",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Unreserve",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Unreserve phase",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Honor",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "WebSocket",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes Security Profiles Operator",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Runtime protection",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Starting control-plane \ud83d\udd79\ufe0f\n\u2713",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Installing CNI",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Installing StorageClass",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "To further debug",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "OpenID Connect",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DoS",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "OSI layer",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Linux only policy",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PersistentVolume object",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Delete the Service",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "RuntimeDefault\nseccomp profile",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Token Volume Projection",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod's IP",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod's name",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Service specification",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "EndpointSlice\nmetadata",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Service\nIP",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes Ingress",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NGINX\nwebserver",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Type=NodePort",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Type=LoadBalancer",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "IngressClass resource",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Type     Reason",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ICMP",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NetworkPolicy API",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Canary Deployment\ntutorial",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "ExternalName\nService",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Topology Aware Routing",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "L2tunnel",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod \u2192 Service",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "HNS",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Windows registry",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Use\nkubectl exec",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "KiB",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Cassandra ring",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "YOUR_PASSWORD",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "NIOServerCnxn@827",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Redis leader",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Redis Deployment",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "PersistentVolumeClaim\nobject",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DefaultStorageClass\nadmission controller",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "PVC object",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "RWX",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ReadWriteMany",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ReadWriteOnce\nvolumeMode",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Unused\ncondition",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "VSANDatastore",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "SPBM",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Virtual SAN",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "RBD",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Azure File",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Azure Storage Account Name",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "WaitForFirstConsumer",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Each VolumeAttributesClass",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "VolumeAttributesClass object",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "VolumeSnapshotContent\nmetadata",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Delete\ndriver",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "WWN",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "OCI object",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CSI plugin",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "FlexVolume driver",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Cloudflare",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Install kubectl binary",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Kubernetes Package Repository",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Install\nkubectl convert\nplugin",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Field compatibility",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "ETW",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Unready",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "VPA spec",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "VerticalPodAutoscaler\nmetadata",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "InPlaceOrRecreate",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Recreate\nmode",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "InPlace\nmode",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "CompositePodGroup\nmetadata",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod Selector\nThe\n.spec.selector\nfield",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Available      True    MinimumReplicasAvailable",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Deployment Spec",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Type           Status  Reason",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "MPI",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Job's pod template",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Job's\nPod failure policy",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Job suspension",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Bare Pods\nUnlike",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "StatefulSet's\n.spec.updateStrategy.type",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "TTL-after-finished controller",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Workload's PodGroupTemplate",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod's spec",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Always\nrestart policy",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Pod garbage collector",
+    "frequency": 3,
+    "appears_in_files": 3
+  },
+  {
+    "entity": "Each init container",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Pod\nrestartPolicy",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "PodScheduled",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "DisruptionTarget",
+    "frequency": 3,
+    "appears_in_files": 2
+  },
+  {
+    "entity": "Container restart policy",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "Each probe",
+    "frequency": 3,
+    "appears_in_files": 1
+  },
+  {
+    "entity": "BuildWorkload",
+    "frequency": 3,
+    "appears_in_files": 1
+  }
+]
